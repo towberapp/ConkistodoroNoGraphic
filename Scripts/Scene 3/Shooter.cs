@@ -70,9 +70,18 @@ public class Shooter : MonoBehaviour
 
     private IEnumerator LastShoot()
     {
+
         yield return new WaitForSeconds(_LastShootWait);
+        
+        PlayableDirector playDir = GetShooter();
+
+        if (playDir == _Shooters[0])
+        {
+            Shoot(playDir);
+        }
+
         //Shoot(GetShooter());
-        Shoot(_ShootOrder[0]);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
