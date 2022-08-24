@@ -113,9 +113,6 @@ public class HeadRotating : MonoBehaviour
                 float newRot = CalcRotation(player.position);
                 MoveTo(newRot);
                 _PrevPlayerPos = player.position;                
-                //start move
-                //isRotation = true;                
-                //StartCoroutine(CheckStop());
             }            
         }
     }
@@ -156,25 +153,19 @@ public class HeadRotating : MonoBehaviour
     {
 
 
-        /* if (!audioSource.isPlaying)
-               {
-                    audioSource.clip = clipMove;
-                    audioSource.Play();
-               }*/
-
-
         IEnumerator Moving(float targetRot)
         {
 
-            if (!isRotation)
-            {
-                print("START ROTATION");
-                audioSource.loop = false;
-                audioSource.clip = clipStart;
-                audioSource.Play();
-            }
+            /* if (!isRotation)
+             {
+                 print("START ROTATION");
+                 audioSource.loop = false;
+                 audioSource.clip = clipStart;
+                 audioSource.Play();
+             }*/
 
-            if (isRotation && !isStartMove && !audioSource.isPlaying)
+            if (!isStartMove)
+            //if (isRotation && !isStartMove && !audioSource.isPlaying)
             {
                 print("move");
                 isStartMove = true;
@@ -208,14 +199,7 @@ public class HeadRotating : MonoBehaviour
 
         if (_Rotating != null)
         {
-            StopCoroutine(_Rotating);
-            
-            //print("STOP")
-            
-
-            //audioSource.clip = clipEnd;
-            //audioSource.Play();
-            //isRotation = false;           
+            StopCoroutine(_Rotating);         
         }
 
         _Rotating = StartCoroutine(Moving(newRotation));
@@ -224,7 +208,7 @@ public class HeadRotating : MonoBehaviour
 
     IEnumerator CheckStop()
     {        
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         print("STOP ROTATION");
         isStartMove = false;
         isRotation = false;

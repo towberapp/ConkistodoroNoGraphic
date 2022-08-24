@@ -71,8 +71,10 @@ public class Shooter : MonoBehaviour
     private IEnumerator LastShoot()
     {
         yield return new WaitForSeconds(_LastShootWait);
-        Shoot(GetShooter());
+        //Shoot(GetShooter());
+        Shoot(_ShootOrder[0]);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag.Contains("Player") && !_IsShooting)
