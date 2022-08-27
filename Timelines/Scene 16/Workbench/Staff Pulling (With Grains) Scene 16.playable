@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2.9166666666666665
+    m_Start: 2.9799727280934647
     m_ClipIn: 0
     m_Asset: {fileID: 4287992660652543598}
     m_Duration: 1.8166666666666669
@@ -140,29 +140,11 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7672157439954207390}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 0
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -201,7 +183,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: verstak kachka Otkril rot
   - m_Version: 1
-    m_Start: 0.7700272719065349
+    m_Start: 0.8333333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -4889970126086670523}
     m_Duration: 2.1466393947601317
@@ -210,7 +192,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -237,25 +219,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -267,7 +231,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0.7700272719065349
+    m_PreExtrapolationTime: 0.8333333333333334
     m_DisplayName: verstak kachka s Oblokom
   m_Markers:
     m_Objects:
@@ -328,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 3.966666666666667
+  m_Time: 4.316666666666666
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 9d626dd6feae9184184665b6b4842ec7, type: 2}
@@ -615,7 +579,7 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: -7437887779494783128}
   - {fileID: -4898459170736080626}
-  m_FixedDuration: 3.966666666666667
+  m_FixedDuration: 4.316666666666666
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
@@ -633,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Time: 2.966666666666667
+  m_Time: 3.0299727280934654
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 19c8bfa48b6392e478c09ccde047350a, type: 2}
