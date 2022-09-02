@@ -18,6 +18,7 @@ public class TriggerEvents : MonoBehaviour
         if (_Enter != null && collision.gameObject == _Target)
             _Enter.Invoke();
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (_Exit != null && collision.gameObject == _Target)

@@ -8,7 +8,7 @@ public class AudioPlay : MonoBehaviour
 
     public void Play(AudioClip clip)
     {
-        if (_AudioSource.clip != null)
+        if (_AudioSource.clip != null && clip == null)
         {
             _AudioSource.Play();
             return;
