@@ -23,8 +23,9 @@ public class AuditionPers : MonoBehaviour
     public void SetAudio(int type)
     {
         foreach (var item in mainAudioSource)
-        {
-            item.clip = audioClips[type];
+        {            
+             if (audioClips != null || audioClips.Length !=0)
+                item.clip = audioClips[type];
         }
     }
 
@@ -33,7 +34,8 @@ public class AuditionPers : MonoBehaviour
     {
         foreach (var item in mainAudioSource)
         {
-            item.clip = audioClips[0];
+            if (audioClips != null)
+                item.clip = audioClips[0];
         }
     }
 
