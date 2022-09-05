@@ -5118,6 +5118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 324205704}
   - component: {fileID: 324205705}
+  - component: {fileID: 324205706}
   m_Layer: 0
   m_Name: water
   m_TagString: Untagged
@@ -5165,6 +5166,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.85, y: 5.67}
   m_EdgeRadius: 0
+--- !u!114 &324205706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324205703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab69959db3d66d842baa1e14822497df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Target: {fileID: 1988851364262798693}
+  _Enter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5315475207269530648}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetClip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 62264c741f82c974ba1d6da89e713e16,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _Stay:
+    m_PersistentCalls:
+      m_Calls: []
+  _Exit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5315475207269530648}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetStandart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &324786691
 GameObject:
   m_ObjectHideFlags: 0
@@ -34315,96 +34363,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &304601184622004380
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 343236394141998153}
-    m_Modifications:
-    - target: {fileID: 304601184006505145, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_Name
-      value: AuditionPers
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 304601184006505147, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: _Target
-      value: 
-      objectReference: {fileID: 324205703}
-    - target: {fileID: 304601184006505147, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: _Exit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5315475207269530648}
-    - target: {fileID: 304601184006505147, guid: d736d1cf174748d42bd597497a8cf71a,
-        type: 3}
-      propertyPath: _Enter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5315475207269530648}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d736d1cf174748d42bd597497a8cf71a, type: 3}
---- !u!4 &304601184622004381 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 304601184006505146, guid: d736d1cf174748d42bd597497a8cf71a,
-    type: 3}
-  m_PrefabInstance: {fileID: 304601184622004380}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &343236394141998153
 Transform:
   m_ObjectHideFlags: 0
@@ -34419,7 +34377,6 @@ Transform:
   - {fileID: 6824078137478178088}
   - {fileID: 4217516697034974355}
   - {fileID: 4217516697535792567}
-  - {fileID: 304601184622004381}
   m_Father: {fileID: 4217516696740446577}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54311,9 +54268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a351df50abd4ff47bc44ab889d24cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: a525fb6708e74234fad6ae33a4cc53b7, type: 3}
-  - {fileID: 8300000, guid: 274eb14702e85bb439da6c505a9fb473, type: 3}
+  audioClips: {fileID: 8300000, guid: a525fb6708e74234fad6ae33a4cc53b7, type: 3}
 --- !u!82 &5315475207269530649
 AudioSource:
   m_ObjectHideFlags: 0
@@ -54920,8 +54875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a351df50abd4ff47bc44ab889d24cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 0}
+  audioClips: {fileID: 0}
 --- !u!95 &9065823995178822832
 Animator:
   serializedVersion: 3
