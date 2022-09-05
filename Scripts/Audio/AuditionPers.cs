@@ -7,7 +7,7 @@ public class AuditionPers : MonoBehaviour
     [System.NonSerialized]
     public AudioSource[] mainAudioSource = new AudioSource[3];
 
-    [SerializeField] private AudioClip[] audioClips;
+    [SerializeField] private AudioClip audioClips;
 
 
     private void Awake()
@@ -20,25 +20,15 @@ public class AuditionPers : MonoBehaviour
         SetStandart();
     }
 
-    public void SetAudio(int type)
+    public void SetClip(AudioClip clip)
     {
-        foreach (var item in mainAudioSource)
-        {            
-             if (audioClips != null || audioClips.Length !=0)
-                item.clip = audioClips[type];
-        }
+        SetClipInAudioSorce(clip);
     }
-
 
     public void SetStandart()
     {
-        foreach (var item in mainAudioSource)
-        {
-            if (audioClips != null)
-                item.clip = audioClips[0];
-        }
+        SetClipInAudioSorce(audioClips);
     }
-
 
     public void PlayPesrAudio()
     {
@@ -54,4 +44,14 @@ public class AuditionPers : MonoBehaviour
             count++;
         }
     }
+
+    private void SetClipInAudioSorce(AudioClip clip)
+    {
+        foreach (var item in mainAudioSource)
+        {
+            item.clip = clip;
+        }
+    }
+
+
 }

@@ -7874,8 +7874,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _MinWait: 20
-  _MaxWait: 50
+  _MinWait: 10
+  _MaxWait: 15
   _Clips:
   - {fileID: 11400000, guid: 5b9c7bc7bca3bcd48bb416a5f0317057, type: 2}
   - {fileID: 11400000, guid: 2a448ac5e1b72e641aaa26d53c1975fd, type: 2}
@@ -41307,6 +41307,7 @@ GameObject:
   - component: {fileID: 3548445764305090169}
   - component: {fileID: 3548445764305090170}
   - component: {fileID: 8780464002665395238}
+  - component: {fileID: 3548445764305090171}
   m_Layer: 0
   m_Name: Animator
   m_TagString: Untagged
@@ -41342,6 +41343,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _WaitTime: 30
+--- !u!114 &3548445764305090171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548445764305090168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a351df50abd4ff47bc44ab889d24cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips: {fileID: 8300000, guid: a525fb6708e74234fad6ae33a4cc53b7, type: 3}
 --- !u!114 &4268369746438626341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61081,6 +61095,7 @@ GameObject:
   - component: {fileID: 7530855110063422336}
   - component: {fileID: 7354734055754845883}
   - component: {fileID: 7354734055754845828}
+  - component: {fileID: 7354734055754845884}
   m_Layer: 0
   m_Name: Animations
   m_TagString: Untagged
@@ -61349,6 +61364,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &7354734055754845884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354734055754845882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a351df50abd4ff47bc44ab889d24cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips: {fileID: 0}
 --- !u!95 &7530855110063422336
 Animator:
   serializedVersion: 3
