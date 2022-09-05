@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class TouchController : MonoBehaviour
 {
     [SerializeField]
+    private GameEvent moveEvent;
+
+    [SerializeField]
     private CharacterMovement _CharacterMovement = null;
 
     [SerializeField]
@@ -100,6 +103,9 @@ public class TouchController : MonoBehaviour
                 if (path != null)
                 {
                     _CharacterMovement.Move(path);
+                    
+                    if (moveEvent != null)
+                        moveEvent.Invoke();
                 }
             }
         }
