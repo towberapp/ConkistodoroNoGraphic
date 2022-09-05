@@ -28,6 +28,19 @@ public class BezdeystvieMusic : MonoBehaviour
         audioSources = FindObjectsOfType<AudioSource>(); 
     }
 
+    private bool CheckAllAudio()
+    {
+        foreach (var item in audioSources)
+        {
+            if (item.isPlaying)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     private void Start()
     {
         coroutine = PlayRandomMusic();        
@@ -49,21 +62,6 @@ public class BezdeystvieMusic : MonoBehaviour
         coroutine = PlayRandomMusic();
         StartCoroutine(coroutine);
     }
-
-
-    private bool CheckAllAudio()
-    {
-        bool check = false;
-        foreach (var item in audioSources)
-        {
-            if (item.isPlaying)
-            {
-                check = true;
-            }
-        }
-        return check;
-    }
-
 
 
     IEnumerator PlayRandomMusic ()
