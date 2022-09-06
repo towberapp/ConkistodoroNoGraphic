@@ -4337,6 +4337,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &153576345
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &154645217
 GameObject:
   m_ObjectHideFlags: 0
@@ -8296,7 +8330,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ef96ed0d4a83f4447abbb306946c691e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fd0bd7f61170aaf48b45339697d72d0b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21208,8 +21242,8 @@ MonoBehaviour:
   - {fileID: 698548595}
   - {fileID: 1411269707}
   m_Bounds:
-    m_Center: {x: -0.013491809, y: 0.023727417, z: 0}
-    m_Extent: {x: 0.34174645, y: 0.5561255, z: 0}
+    m_Center: {x: 0.28832263, y: 0.17050996, z: 0}
+    m_Extent: {x: 0.4974463, y: 0.4756969, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &791686159
@@ -27549,8 +27583,8 @@ MonoBehaviour:
   - {fileID: 833273279}
   - {fileID: 1521800458}
   m_Bounds:
-    m_Center: {x: 0.07380694, y: -0.5082964, z: 0}
-    m_Extent: {x: 0.6647801, y: 0.7411907, z: 0}
+    m_Center: {x: 0.116696954, y: -0.5341906, z: 0}
+    m_Extent: {x: 0.6649493, y: 0.74548763, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1061381598
@@ -29250,8 +29284,8 @@ MonoBehaviour:
   - {fileID: 1239853977}
   - {fileID: 69859579}
   m_Bounds:
-    m_Center: {x: 0.120524585, y: 0.066955924, z: 0}
-    m_Extent: {x: 0.99981844, y: 0.663635, z: 0}
+    m_Center: {x: 0.153305, y: 0.043479502, z: 0}
+    m_Extent: {x: 0.9932729, y: 0.67163026, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1131903494
@@ -32127,6 +32161,28 @@ PlayableDirector:
     value: {fileID: 841515552457659112}
   - key: {fileID: 9044334107610457678, guid: de872cff54671b443ab8f7e8b3ad2394, type: 2}
     value: {fileID: 227531746}
+  - key: {fileID: 1896923445686218526, guid: 1f5483dfead95884a813407873d713ba, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2793694580607606996, guid: dea350c2a4f200f4cbb1dea616f98715, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -381191615988033380, guid: 4cb572f1e7c0fd8418f871eaa6bfa375, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4526878225796666529, guid: 301be10d19dc94c4992657c78f500648, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 865486987455972206, guid: fbac8321f566da044ac368e3a077b60e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7555554158251718431, guid: 1b2ad28661209924993710088f2f1c5d, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3118904148252545607, guid: 8a5983c977dcd8d4a8d8ab40c71849cf, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6475389785353118168, guid: 12324def2f6aa514d815271f47517d42, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3672878396904161670, guid: 48524a07019119c4e97e8089b3e05b69, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2942418615631914180, guid: de872cff54671b443ab8f7e8b3ad2394, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6581466709510296774, guid: 63ff15939005d084fa0ccd35f4f50cb2, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1263682893
@@ -36103,8 +36159,8 @@ MonoBehaviour:
   - {fileID: 495179750}
   - {fileID: 1706270593}
   m_Bounds:
-    m_Center: {x: 0.0012164116, y: 0.0092051625, z: 0}
-    m_Extent: {x: 0.43781278, y: 0.7505308, z: 0}
+    m_Center: {x: 0.0012162328, y: 0.009205222, z: 0}
+    m_Extent: {x: 0.43781248, y: 0.75053084, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1423188912
@@ -40921,8 +40977,8 @@ MonoBehaviour:
   - {fileID: 795739301}
   - {fileID: 83556074}
   m_Bounds:
-    m_Center: {x: -0.034235686, y: 0.046607316, z: 0}
-    m_Extent: {x: 0.3248019, y: 0.61248696, z: 0}
+    m_Center: {x: 0.18285903, y: 0.13559899, z: 0}
+    m_Extent: {x: 0.5125077, y: 0.5147029, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1669861834
@@ -41847,7 +41903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704924410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.18, y: -15.91, z: 0}
+  m_LocalPosition: {x: 10.22, y: -15.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1137019116}
@@ -42246,8 +42302,8 @@ MonoBehaviour:
   - {fileID: 231602562}
   - {fileID: 1735706849}
   m_Bounds:
-    m_Center: {x: 0.0013363957, y: 0.00058972836, z: 0}
-    m_Extent: {x: 0.42366517, y: 0.75781953, z: 0}
+    m_Center: {x: 0.0013354421, y: 0.00058966875, z: 0}
+    m_Extent: {x: 0.42366517, y: 0.7578194, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1716954201
@@ -43280,7 +43336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1771176941
 MonoBehaviour:
   m_ObjectHideFlags: 0
