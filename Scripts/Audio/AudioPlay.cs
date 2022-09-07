@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class AudioPlay : MonoBehaviour 
 {
-    [SerializeField] private AudioSource _AudioSource = null;
+    private AudioSource _AudioSource;
+
+    private void Awake()
+    {
+        _AudioSource = gameObject.AddComponent<AudioSource>();
+    }
 
     public void Play(AudioClip clip)
     {

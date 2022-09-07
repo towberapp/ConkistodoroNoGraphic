@@ -4,53 +4,49 @@ using UnityEngine;
 
 public class AuditionPers : MonoBehaviour
 {
-    [System.NonSerialized]
-    public AudioSource[] mainAudioSource = new AudioSource[3];
+    AudioSource leftAudioSource;
+    AudioSource rightudioSource;
 
-    [SerializeField] private AudioClip audioClips;
+    [SerializeField] private AudioClip leftAudioClips;
+    [SerializeField] private AudioClip rightAudioClips;
 
+    private bool check = true;
 
     private void Awake()
     {
-        for (int i = 0; i < mainAudioSource.Length; i++)
-        {
-            mainAudioSource[i] = gameObject.AddComponent<AudioSource>();
-            mainAudioSource[i].playOnAwake = false;
-        }
+        leftAudioSource = gameObject.AddComponent<AudioSource>();
+        rightudioSource = gameObject.AddComponent<AudioSource>();
         SetStandart();
     }
 
     public void SetClip(AudioClip clip)
     {
-        SetClipInAudioSorce(clip);
+        SetClipInAudioSorce(clip, leftAudioSource);
+        SetClipInAudioSorce(clip, rightudioSource);
     }
 
     public void SetStandart()
     {
-        SetClipInAudioSorce(audioClips);
+        SetClipInAudioSorce(leftAudioClips, leftAudioSource);
+        SetClipInAudioSorce(rightAudioClips, rightudioSource);
     }
 
     public void PlayPesrAudio()
     {
-        bool isPlay = false;
-        int count = 0;
-        foreach (var item in mainAudioSource)
+        if (check)
         {
-            if (!item.isPlaying && !isPlay)
-            {
-                item.Play();
-                isPlay = true;
-            }
-            count++;
+            leftAudioSource.Play();
+        } else
+        {
+            rightudioSource.Play();
         }
+        check = !check;
     }
 
-    private void SetClipInAudioSorce(AudioClip clip)
+    private void SetClipInAudioSorce(AudioClip clip, AudioSource source)
     {
-        foreach (var item in mainAudioSource)
-        {
-            item.clip = clip;
-        }
+        if (clip != null)
+            source.clip = clip;
     }
 
 
