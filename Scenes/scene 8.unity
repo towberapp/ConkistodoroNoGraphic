@@ -4765,8 +4765,8 @@ MonoBehaviour:
   - {fileID: 968796736}
   - {fileID: 385508436}
   m_Bounds:
-    m_Center: {x: -0.0016154349, y: -0.005317688, z: 0}
-    m_Extent: {x: 0.42169508, y: 0.762107, z: 0}
+    m_Center: {x: -0.0016157925, y: -0.00069469213, z: 0}
+    m_Extent: {x: 0.42169508, y: 0.7574851, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &160879621
@@ -5248,8 +5248,13 @@ MonoBehaviour:
   - {fileID: 783586150}
   - {fileID: 585525269}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.26301286, y: -0.44851696, z: 0}
     m_Extent: {x: 0.5830726, y: 0.67100203, z: 0}
+=======
+    m_Center: {x: 0.20940545, y: -0.6078102, z: 0}
+    m_Extent: {x: 0.58307415, y: 0.6710022, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &180811504
@@ -21240,8 +21245,13 @@ MonoBehaviour:
   - {fileID: 698548595}
   - {fileID: 1411269707}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.08596122, y: -0.0064948797, z: 0}
     m_Extent: {x: 0.32449436, y: 0.5838809, z: 0}
+=======
+    m_Center: {x: -0.00020092726, y: 0.005649984, z: 0}
+    m_Extent: {x: 0.33157408, y: 0.567454, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &791686159
@@ -21520,6 +21530,124 @@ Transform:
   m_Father: {fileID: 463600593}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &801621993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801621994}
+  - component: {fileID: 801621996}
+  - component: {fileID: 801621995}
+  m_Layer: 0
+  m_Name: Idet Derevo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801621994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801621993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.8, y: -4.11, z: 0}
+  m_LocalScale: {x: 12.44, y: 4.89, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1095485702}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &801621995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801621993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab69959db3d66d842baa1e14822497df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Target: {fileID: 1071851859979891546}
+  _Enter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetAudio_A
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: cc3ab60d115039642ae227ef3aa5ddb0,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetAudio_B
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 4fd8875b36807834bb82d540d5e8ca9e,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _Stay:
+    m_PersistentCalls:
+      m_Calls: []
+  _Exit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetStandart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!61 &801621996
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801621993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &809632980
 GameObject:
   m_ObjectHideFlags: 0
@@ -25175,8 +25303,13 @@ MonoBehaviour:
   - {fileID: 1598294267}
   - {fileID: 1064817813}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.009909868, y: -0.45300186, z: 0}
     m_Extent: {x: 0.45635012, y: 0.694685, z: 0}
+=======
+    m_Center: {x: 0.009910792, y: -0.4530027, z: 0}
+    m_Extent: {x: 0.4563502, y: 0.6946844, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &973874529
@@ -27581,7 +27714,11 @@ MonoBehaviour:
   - {fileID: 833273279}
   - {fileID: 1521800458}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.09537697, y: -0.5040955, z: 0}
+=======
+    m_Center: {x: 0.09537697, y: -0.50409645, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
     m_Extent: {x: 0.6650002, y: 0.7366902, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -28666,6 +28803,8 @@ Transform:
   - {fileID: 642129538}
   - {fileID: 1247168770}
   - {fileID: 1272328749}
+  - {fileID: 801621994}
+  - {fileID: 2088752195}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29282,8 +29421,13 @@ MonoBehaviour:
   - {fileID: 1239853977}
   - {fileID: 69859579}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.12693954, y: 0.06455684, z: 0}
     m_Extent: {x: 1.0021874, y: 0.6655105, z: 0}
+=======
+    m_Center: {x: 0.1269399, y: 0.0645566, z: 0}
+    m_Extent: {x: 1.0021873, y: 0.6655107, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1131903494
@@ -31830,8 +31974,8 @@ MonoBehaviour:
   - {fileID: 1400030270}
   - {fileID: 2027379713}
   m_Bounds:
-    m_Center: {x: 0.015075743, y: -0.41306442, z: 0}
-    m_Extent: {x: 0.32600015, y: 0.58180976, z: 0}
+    m_Center: {x: 0.015075028, y: -0.41306442, z: 0}
+    m_Extent: {x: 0.32600006, y: 0.58180976, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1254105223
@@ -32048,7 +32192,11 @@ PlayableDirector:
   m_GameObject: {fileID: 1263682889}
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_PlayableAsset: {fileID: 11400000, guid: dea350c2a4f200f4cbb1dea616f98715, type: 2}
+=======
+  m_PlayableAsset: {fileID: 11400000, guid: 1f5483dfead95884a813407873d713ba, type: 2}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -32182,8 +32330,11 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 63933143634398602, guid: 09b7733416b3a864dba5311f7cb158c1, type: 2}
     value: {fileID: 0}
+<<<<<<< HEAD
   - key: {fileID: 6132107554522187702, guid: 3bb2e7a9a3798b844a46618da50c06f8, type: 2}
     value: {fileID: 0}
+=======
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1263682893
@@ -33007,8 +33158,13 @@ MonoBehaviour:
   - {fileID: 2120904677}
   - {fileID: 1560337485}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: -0.030008316, y: -0.42653495, z: 0}
     m_Extent: {x: 0.31814992, y: 0.58569175, z: 0}
+=======
+    m_Center: {x: -0.030006409, y: -0.4265356, z: 0}
+    m_Extent: {x: 0.31814998, y: 0.5856912, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1282379796
@@ -34997,8 +35153,8 @@ MonoBehaviour:
   - {fileID: 1821725663}
   - {fileID: 1189927280}
   m_Bounds:
-    m_Center: {x: 0.0000051259995, y: 0.02935338, z: 0}
-    m_Extent: {x: 0.6649997, y: 0.71935546, z: 0}
+    m_Center: {x: 0.00000590086, y: 0.029353857, z: 0}
+    m_Extent: {x: 0.6649996, y: 0.71935606, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1370466315
@@ -36159,8 +36315,13 @@ MonoBehaviour:
   - {fileID: 495179750}
   - {fileID: 1706270593}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.0012164116, y: 0.0092051625, z: 0}
     m_Extent: {x: 0.43781278, y: 0.7505308, z: 0}
+=======
+    m_Center: {x: 0.011442363, y: 0.013951004, z: 0}
+    m_Extent: {x: 0.44168597, y: 0.76572454, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1423188912
@@ -39230,8 +39391,13 @@ MonoBehaviour:
   - {fileID: 1744207385}
   - {fileID: 1745770760}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: -0.023606598, y: -0.2780042, z: 0}
     m_Extent: {x: 0.99673384, y: 0.4191396, z: 0}
+=======
+    m_Center: {x: -0.055006564, y: -0.53256786, z: 0}
+    m_Extent: {x: 0.9904811, y: 0.42700875, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1568728035
@@ -40977,8 +41143,13 @@ MonoBehaviour:
   - {fileID: 795739301}
   - {fileID: 83556074}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.055997223, y: 0.11404413, z: 0}
     m_Extent: {x: 0.39360243, y: 0.5063458, z: 0}
+=======
+    m_Center: {x: 0.022010714, y: 0.078122884, z: 0}
+    m_Extent: {x: 0.36313236, y: 0.5514281, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1669861834
@@ -42302,8 +42473,13 @@ MonoBehaviour:
   - {fileID: 231602562}
   - {fileID: 1735706849}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.0013363957, y: 0.00058972836, z: 0}
     m_Extent: {x: 0.42366517, y: 0.75781953, z: 0}
+=======
+    m_Center: {x: 0.16297367, y: 0.09091306, z: 0}
+    m_Extent: {x: 0.4771962, y: 0.7477888, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1716954201
@@ -42584,8 +42760,8 @@ MonoBehaviour:
   - {fileID: 1801483548}
   - {fileID: 1112359457}
   m_Bounds:
-    m_Center: {x: 0.00063586235, y: 0.008314192, z: 0}
-    m_Extent: {x: 0.4393651, y: 0.7511941, z: 0}
+    m_Center: {x: 0.00063610077, y: 0.008314371, z: 0}
+    m_Extent: {x: 0.4393646, y: 0.75119454, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1741670657
@@ -42978,8 +43154,13 @@ MonoBehaviour:
   - {fileID: 935100752}
   - {fileID: 40874422}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.014870346, y: -0.45606315, z: 0}
     m_Extent: {x: 0.3239756, y: 0.5944493, z: 0}
+=======
+    m_Center: {x: 0.014870346, y: -0.45606548, z: 0}
+    m_Extent: {x: 0.32397464, y: 0.59444994, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1750168910
@@ -50464,8 +50645,8 @@ MonoBehaviour:
   - {fileID: 2049835000}
   - {fileID: 1298339166}
   m_Bounds:
-    m_Center: {x: -0.011331171, y: -0.46042055, z: 0}
-    m_Extent: {x: 0.32529002, y: 0.61395425, z: 0}
+    m_Center: {x: -0.011331439, y: -0.46042037, z: 0}
+    m_Extent: {x: 0.32528952, y: 0.6139544, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2078384147
@@ -50803,6 +50984,124 @@ Transform:
   m_Father: {fileID: 989908853}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2088752194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2088752195}
+  - component: {fileID: 2088752197}
+  - component: {fileID: 2088752196}
+  m_Layer: 0
+  m_Name: Idet Grunt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2088752195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088752194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.8, y: -3.11, z: 0}
+  m_LocalScale: {x: 23, y: 5.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1095485702}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2088752196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088752194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab69959db3d66d842baa1e14822497df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Target: {fileID: 1071851859979891546}
+  _Enter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetAudio_A
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: ea249bc02737add4599c19108440ede9,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetAudio_B
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: b8ac5150fd0a3fd428c2ab3dfc24a465,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _Stay:
+    m_PersistentCalls:
+      m_Calls: []
+  _Exit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6666021072400034349}
+        m_TargetAssemblyTypeName: AuditionPers, Assembly-CSharp
+        m_MethodName: SetStandart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!61 &2088752197
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088752194}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2091842215
 GameObject:
   m_ObjectHideFlags: 0
@@ -51047,8 +51346,13 @@ MonoBehaviour:
   - {fileID: 369315520}
   - {fileID: 1930278760}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 0.0035412312, y: -0.43782157, z: 0}
     m_Extent: {x: 0.45251435, y: 0.6294928, z: 0}
+=======
+    m_Center: {x: 0.0035427213, y: -0.437823, z: 0}
+    m_Extent: {x: 0.4525149, y: 0.62949246, z: 0}
+>>>>>>> ef8b8c6b57b155d9b1babf8b2d43a5bae4443746
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2102854102
@@ -51614,8 +51918,8 @@ MonoBehaviour:
   - {fileID: 392800224}
   - {fileID: 1315845319}
   m_Bounds:
-    m_Center: {x: -0.05931902, y: -0.0070202947, z: 0}
-    m_Extent: {x: 0.92432004, y: 0.66797984, z: 0}
+    m_Center: {x: -0.059317887, y: -0.007019341, z: 0}
+    m_Extent: {x: 0.9243207, y: 0.66797984, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2131406402
@@ -71882,6 +72186,8 @@ GameObject:
   - component: {fileID: 6666021072400034347}
   - component: {fileID: 6666021072400034344}
   - component: {fileID: 6666021072400034348}
+  - component: {fileID: 6666021072400034350}
+  - component: {fileID: 6666021072400034349}
   m_Layer: 0
   m_Name: Animator
   m_TagString: Untagged
@@ -71917,6 +72223,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _LayerChecker: {fileID: 3441184723069727405}
+--- !u!114 &6666021072400034349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6666021072400034346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a351df50abd4ff47bc44ab889d24cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAudioClips: {fileID: 0}
+  rightAudioClips: {fileID: 0}
+--- !u!114 &6666021072400034350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6666021072400034346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8713995174650861760
 Transform:
   m_ObjectHideFlags: 0
