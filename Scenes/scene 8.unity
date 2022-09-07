@@ -5248,8 +5248,8 @@ MonoBehaviour:
   - {fileID: 783586150}
   - {fileID: 585525269}
   m_Bounds:
-    m_Center: {x: 0.2630152, y: -0.4485165, z: 0}
-    m_Extent: {x: 0.583074, y: 0.6710025, z: 0}
+    m_Center: {x: 0.26301286, y: -0.44851696, z: 0}
+    m_Extent: {x: 0.5830726, y: 0.67100203, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &180811504
@@ -6480,7 +6480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 335822782}
 --- !u!1 &231602561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6706,6 +6705,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &245760324
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &247808206
 GameObject:
   m_ObjectHideFlags: 0
@@ -16794,7 +16827,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 642129539}
 --- !u!1 &644255706
 GameObject:
   m_ObjectHideFlags: 0
@@ -21208,8 +21240,8 @@ MonoBehaviour:
   - {fileID: 698548595}
   - {fileID: 1411269707}
   m_Bounds:
-    m_Center: {x: 0.28832263, y: 0.17050996, z: 0}
-    m_Extent: {x: 0.4974463, y: 0.4756969, z: 0}
+    m_Center: {x: 0.08596122, y: -0.0064948797, z: 0}
+    m_Extent: {x: 0.32449436, y: 0.5838809, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &791686159
@@ -25143,8 +25175,8 @@ MonoBehaviour:
   - {fileID: 1598294267}
   - {fileID: 1064817813}
   m_Bounds:
-    m_Center: {x: 0.009910762, y: -0.4530025, z: 0}
-    m_Extent: {x: 0.45634913, y: 0.6946854, z: 0}
+    m_Center: {x: 0.009909868, y: -0.45300186, z: 0}
+    m_Extent: {x: 0.45635012, y: 0.694685, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &973874529
@@ -27549,8 +27581,8 @@ MonoBehaviour:
   - {fileID: 833273279}
   - {fileID: 1521800458}
   m_Bounds:
-    m_Center: {x: 0.116696954, y: -0.5341906, z: 0}
-    m_Extent: {x: 0.6649493, y: 0.74548763, z: 0}
+    m_Center: {x: 0.09537697, y: -0.5040955, z: 0}
+    m_Extent: {x: 0.6650002, y: 0.7366902, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1061381598
@@ -29250,8 +29282,8 @@ MonoBehaviour:
   - {fileID: 1239853977}
   - {fileID: 69859579}
   m_Bounds:
-    m_Center: {x: 0.153305, y: 0.043479502, z: 0}
-    m_Extent: {x: 0.9932729, y: 0.67163026, z: 0}
+    m_Center: {x: 0.12693954, y: 0.06455684, z: 0}
+    m_Extent: {x: 1.0021874, y: 0.6655105, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1131903494
@@ -31686,7 +31718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 1247168771}
 --- !u!1 &1247383869
 GameObject:
   m_ObjectHideFlags: 0
@@ -32017,7 +32048,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1263682889}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 09b7733416b3a864dba5311f7cb158c1, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: dea350c2a4f200f4cbb1dea616f98715, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -32148,6 +32179,10 @@ PlayableDirector:
   - key: {fileID: 2942418615631914180, guid: de872cff54671b443ab8f7e8b3ad2394, type: 2}
     value: {fileID: 0}
   - key: {fileID: -6581466709510296774, guid: 63ff15939005d084fa0ccd35f4f50cb2, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 63933143634398602, guid: 09b7733416b3a864dba5311f7cb158c1, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6132107554522187702, guid: 3bb2e7a9a3798b844a46618da50c06f8, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -32776,7 +32811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 1272328750}
 --- !u!1 &1275192828
 GameObject:
   m_ObjectHideFlags: 0
@@ -32973,8 +33007,8 @@ MonoBehaviour:
   - {fileID: 2120904677}
   - {fileID: 1560337485}
   m_Bounds:
-    m_Center: {x: -0.030005455, y: -0.42653495, z: 0}
-    m_Extent: {x: 0.31814995, y: 0.5856927, z: 0}
+    m_Center: {x: -0.030008316, y: -0.42653495, z: 0}
+    m_Extent: {x: 0.31814992, y: 0.58569175, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1282379796
@@ -36125,8 +36159,8 @@ MonoBehaviour:
   - {fileID: 495179750}
   - {fileID: 1706270593}
   m_Bounds:
-    m_Center: {x: 0.0012162328, y: 0.009205222, z: 0}
-    m_Extent: {x: 0.43781248, y: 0.75053084, z: 0}
+    m_Center: {x: 0.0012164116, y: 0.0092051625, z: 0}
+    m_Extent: {x: 0.43781278, y: 0.7505308, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1423188912
@@ -36624,40 +36658,6 @@ Transform:
   m_Father: {fileID: 1059154021}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1447785409
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1448583372
 GameObject:
   m_ObjectHideFlags: 0
@@ -39230,8 +39230,8 @@ MonoBehaviour:
   - {fileID: 1744207385}
   - {fileID: 1745770760}
   m_Bounds:
-    m_Center: {x: -0.023605704, y: -0.2780047, z: 0}
-    m_Extent: {x: 0.99673295, y: 0.4191401, z: 0}
+    m_Center: {x: -0.023606598, y: -0.2780042, z: 0}
+    m_Extent: {x: 0.99673384, y: 0.4191396, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1568728035
@@ -40977,8 +40977,8 @@ MonoBehaviour:
   - {fileID: 795739301}
   - {fileID: 83556074}
   m_Bounds:
-    m_Center: {x: 0.18285903, y: 0.13559899, z: 0}
-    m_Extent: {x: 0.5125077, y: 0.5147029, z: 0}
+    m_Center: {x: 0.055997223, y: 0.11404413, z: 0}
+    m_Extent: {x: 0.39360243, y: 0.5063458, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1669861834
@@ -42302,8 +42302,8 @@ MonoBehaviour:
   - {fileID: 231602562}
   - {fileID: 1735706849}
   m_Bounds:
-    m_Center: {x: 0.0013354421, y: 0.00058966875, z: 0}
-    m_Extent: {x: 0.42366517, y: 0.7578194, z: 0}
+    m_Center: {x: 0.0013363957, y: 0.00058972836, z: 0}
+    m_Extent: {x: 0.42366517, y: 0.75781953, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1716954201
@@ -42978,8 +42978,8 @@ MonoBehaviour:
   - {fileID: 935100752}
   - {fileID: 40874422}
   m_Bounds:
-    m_Center: {x: 0.014871776, y: -0.45606458, z: 0}
-    m_Extent: {x: 0.3239751, y: 0.59444964, z: 0}
+    m_Center: {x: 0.014870346, y: -0.45606315, z: 0}
+    m_Extent: {x: 0.3239756, y: 0.5944493, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1750168910
@@ -43336,7 +43336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1771176941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51047,8 +51047,8 @@ MonoBehaviour:
   - {fileID: 369315520}
   - {fileID: 1930278760}
   m_Bounds:
-    m_Center: {x: 0.003543675, y: -0.43782234, z: 0}
-    m_Extent: {x: 0.45251483, y: 0.629493, z: 0}
+    m_Center: {x: 0.0035412312, y: -0.43782157, z: 0}
+    m_Extent: {x: 0.45251435, y: 0.6294928, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2102854102
@@ -52042,7 +52042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 17798308}
 --- !u!114 &1071851859979891524
 MonoBehaviour:
   m_ObjectHideFlags: 0
