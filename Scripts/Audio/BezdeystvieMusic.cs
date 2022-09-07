@@ -53,10 +53,10 @@ public class BezdeystvieMusic : MonoBehaviour
          
         if (audioSource.isPlaying)
         {
-            DisableVolume();            
+            //DisableVolume();            
         }
 
-        Debug.Log("STOP / START COURUTINES");
+        //Debug.Log("STOP / START COURUTINES");
         StopCoroutine(coroutine);
 
         coroutine = PlayRandomMusic();
@@ -70,11 +70,12 @@ public class BezdeystvieMusic : MonoBehaviour
         yield return new WaitForSeconds(rnd);
 
 
-        bool checkAudio = CheckAllAudio();
+        //bool checkAudio = CheckAllAudio();
+        //bool checkAudio = CheckAllAudio();
 
-        while (checkAudio) {
+        while (audioSource.isPlaying) {
             yield return new WaitForSeconds(3.0f);
-            checkAudio = CheckAllAudio();
+            //checkAudio = CheckAllAudio();
             Debug.Log("CHECK AUDIO");
         }
       
