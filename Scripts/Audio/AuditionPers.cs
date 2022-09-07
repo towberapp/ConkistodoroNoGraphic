@@ -19,23 +19,11 @@ public class AuditionPers : MonoBehaviour
         SetStandart();
     }
 
-    public void SetAudio_A(AudioClip clip)
+    public void SetClip(AudioClip clip)
     {
-        SetClipInAudioSorce(clip, leftAudioSource);      
-    }
-
-    public void SetAudio_B(AudioClip clip)
-    {
+        SetClipInAudioSorce(clip, leftAudioSource);
         SetClipInAudioSorce(clip, rightudioSource);
     }
-
-    /*    public void SetClip(AudioClip clip)
-        {
-            SetClipInAudioSorce(clip, leftAudioSource);
-            SetClipInAudioSorce(clip, rightudioSource);
-        }
-    */
-
 
     public void SetStandart()
     {
