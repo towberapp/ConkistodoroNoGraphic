@@ -5496,6 +5496,8 @@ GameObject:
   - component: {fileID: 254350291}
   - component: {fileID: 254350290}
   - component: {fileID: 254350289}
+  - component: {fileID: 254350293}
+  - component: {fileID: 254350292}
   m_Layer: 0
   m_Name: Animations
   m_TagString: Untagged
@@ -5924,6 +5926,114 @@ MonoBehaviour:
             m_StringArgument: Left
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!82 &254350292
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254350288}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &254350293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254350288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &255465666
 GameObject:
   m_ObjectHideFlags: 0
@@ -13287,8 +13397,8 @@ MonoBehaviour:
   - {fileID: 2050092378}
   - {fileID: 1309107084}
   m_Bounds:
-    m_Center: {x: -0.06887394, y: 0.10801342, z: 0}
-    m_Extent: {x: 0.34480006, y: 0.58357567, z: 0}
+    m_Center: {x: 0.36044395, y: 0.3088003, z: 0}
+    m_Extent: {x: 0.4831714, y: 0.32727253, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &548648058
@@ -15726,7 +15836,7 @@ PlayableDirector:
   m_GameObject: {fileID: 632546863}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: fc0a0f9b20d97fd4f9472086791f849f, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: be2a17aef8a60604baed042d17978372, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -15888,6 +15998,10 @@ PlayableDirector:
     value: {fileID: 254350290}
   - key: {fileID: 4507132670679336361, guid: 623a592931f6b8b478d4f1d0de42c04b, type: 2}
     value: {fileID: 254350288}
+  - key: {fileID: -6736861715499421407, guid: c426b3d8e2da5484bb0a3a63261a6f32, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8829311211618005416, guid: c426b3d8e2da5484bb0a3a63261a6f32, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &635626185
@@ -18805,8 +18919,8 @@ MonoBehaviour:
   - {fileID: 367183945}
   - {fileID: 500577473}
   m_Bounds:
-    m_Center: {x: 0.061094373, y: 0.05992472, z: 0}
-    m_Extent: {x: 0.36648512, y: 0.5425559, z: 0}
+    m_Center: {x: -0.0026668012, y: 0.015997589, z: 0}
+    m_Extent: {x: 0.3329674, y: 0.5619236, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &774591982
@@ -19439,7 +19553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 809222846}
 --- !u!82 &809222846
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21060,40 +21173,6 @@ Transform:
   m_Father: {fileID: 755758350}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &863043127
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &869075641
 GameObject:
   m_ObjectHideFlags: 0
@@ -26672,8 +26751,8 @@ MonoBehaviour:
   - {fileID: 95399723}
   - {fileID: 536694699}
   m_Bounds:
-    m_Center: {x: 0.05429855, y: 0.05446887, z: 0}
-    m_Extent: {x: 0.44897982, y: 0.7611098, z: 0}
+    m_Center: {x: 0.001216948, y: 0.009205699, z: 0}
+    m_Extent: {x: 0.43781245, y: 0.7505305, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1078393073
@@ -30333,8 +30412,8 @@ MonoBehaviour:
   - {fileID: 830315109}
   - {fileID: 1534912558}
   m_Bounds:
-    m_Center: {x: 0.17008704, y: -0.47556674, z: 0}
-    m_Extent: {x: 0.66682005, y: 0.7259873, z: 0}
+    m_Center: {x: 0.09537768, y: -0.5040955, z: 0}
+    m_Extent: {x: 0.6650003, y: 0.7366902, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1228311919
@@ -30892,7 +30971,7 @@ MonoBehaviour:
   - {fileID: 1369912445}
   - {fileID: 702451571}
   m_Bounds:
-    m_Center: {x: 0.0013360381, y: 0.000590086, z: 0}
+    m_Center: {x: 0.0013355613, y: 0.00058954954, z: 0}
     m_Extent: {x: 0.4236653, y: 0.75781953, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -33538,8 +33617,8 @@ MonoBehaviour:
   - {fileID: 792157488}
   - {fileID: 628315057}
   m_Bounds:
-    m_Center: {x: 0.142174, y: 0.056173503, z: 0}
-    m_Extent: {x: 1.0039877, y: 0.67227274, z: 0}
+    m_Center: {x: 0.12694019, y: 0.064557076, z: 0}
+    m_Extent: {x: 1.0021874, y: 0.6655103, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1346334635
@@ -35123,7 +35202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400914882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.82, y: -5.47, z: 0}
+  m_LocalPosition: {x: 16.76, y: -5.29, z: 0}
   m_LocalScale: {x: 1.0479169, y: 1.0479169, z: 1.0479169}
   m_Children: []
   m_Father: {fileID: 1209486312}
@@ -46833,6 +46912,40 @@ Transform:
   m_Father: {fileID: 1578484765}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1927638216
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1927753187
 GameObject:
   m_ObjectHideFlags: 0

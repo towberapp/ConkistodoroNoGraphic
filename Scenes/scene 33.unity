@@ -1646,6 +1646,8 @@ GameObject:
   - component: {fileID: 99593111}
   - component: {fileID: 99593112}
   - component: {fileID: 99593113}
+  - component: {fileID: 99593115}
+  - component: {fileID: 99593114}
   m_Layer: 0
   m_Name: Animations
   m_TagString: Untagged
@@ -2247,6 +2249,114 @@ MonoBehaviour:
             m_StringArgument: Putted
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!82 &99593114
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99593110}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &99593115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99593110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108933045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5015,8 +5125,8 @@ MonoBehaviour:
   - {fileID: 765167711}
   - {fileID: 1081408048}
   m_Bounds:
-    m_Center: {x: -0.011330932, y: -0.46041995, z: 0}
-    m_Extent: {x: 0.3252905, y: 0.6139546, z: 0}
+    m_Center: {x: -0.011331886, y: -0.46041954, z: 0}
+    m_Extent: {x: 0.32529008, y: 0.61395407, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &240211541
@@ -6473,137 +6583,6 @@ Transform:
   m_Father: {fileID: 2051213745}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &294691558
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 4800000, guid: e707642b85dc0994aa808c2e5c89c30e, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHATEST_ON _EMISSION
-  m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BrightTexture:
-        m_Texture: {fileID: 2800000, guid: 04185bd984d9b974c9aa148e81aba7bc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailBump:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DissolveTex:
-        m_Texture: {fileID: 2800000, guid: 04185bd984d9b974c9aa148e81aba7bc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DissolveTexture:
-        m_Texture: {fileID: 2800000, guid: 04185bd984d9b974c9aa148e81aba7bc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainBump:
-        m_Texture: {fileID: 2800000, guid: e31b8007ba696fc4baa21cc9caa3a406, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.19, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f8d5db79f2815da4b95ebd72dec7083b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: e31b8007ba696fc4baa21cc9caa3a406, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _Amount: 0
-    - _Brightness: 0.59
-    - _Brigthness: 0
-    - _BumpScale: 1
-    - _ColorMask: 15.02
-    - _Cutoff: 0.493
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _EnableExternalAlpha: 0
-    - _Focus: 52
-    - _GlossMapScale: 1
-    - _Glossiness: 0.504
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 1
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _Shininess: 0.334
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Stencil: 0.27
-    - _StencilComp: 4.3
-    - _StencilOp: 0.05
-    - _StencilReadMask: 272
-    - _StencilWriteMask: 252.77
-    - _Strength: 0.371
-    - _Threshold: 0
-    - _UVSec: 0
-    - _UseUIAlphaClip: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Specular: {r: 1, g: 1, b: 1, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &295454493
 GameObject:
   m_ObjectHideFlags: 0
@@ -11329,8 +11308,8 @@ MonoBehaviour:
   - {fileID: 2090374762}
   - {fileID: 1654022919}
   m_Bounds:
-    m_Center: {x: 0.15565163, y: 0.04130423, z: 0}
-    m_Extent: {x: 0.9847862, y: 0.6871489, z: 0}
+    m_Center: {x: 0.12693655, y: 0.06455815, z: 0}
+    m_Extent: {x: 1.0021852, y: 0.6655102, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &599127763
@@ -13071,8 +13050,8 @@ MonoBehaviour:
   - {fileID: 1963197436}
   - {fileID: 1241485378}
   m_Bounds:
-    m_Center: {x: -0.0016157925, y: -0.0006954074, z: 0}
-    m_Extent: {x: 0.42169508, y: 0.7574847, z: 0}
+    m_Center: {x: -0.0016162992, y: -0.00069481134, z: 0}
+    m_Extent: {x: 0.4216956, y: 0.757485, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &704820052
@@ -14407,8 +14386,8 @@ MonoBehaviour:
   - {fileID: 532522809}
   - {fileID: 584060048}
   m_Bounds:
-    m_Center: {x: 0.0010946989, y: 0.0036222935, z: 0}
-    m_Extent: {x: 0.3295967, y: 0.568887, z: 0}
+    m_Center: {x: 0.009172499, y: -0.0035398602, z: 0}
+    m_Extent: {x: 0.3254539, y: 0.5801395, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &766344638
@@ -16792,8 +16771,8 @@ MonoBehaviour:
   - {fileID: 1619131843}
   - {fileID: 975003876}
   m_Bounds:
-    m_Center: {x: 0.0000051259995, y: 0.029354036, z: 0}
-    m_Extent: {x: 0.66499984, y: 0.7193562, z: 0}
+    m_Center: {x: 0.0000049471855, y: 0.029354095, z: 0}
+    m_Extent: {x: 0.6650006, y: 0.7193556, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &939747013
@@ -19747,8 +19726,8 @@ MonoBehaviour:
   - {fileID: 1942512011}
   - {fileID: 1672610292}
   m_Bounds:
-    m_Center: {x: 0.010680258, y: -0.0070196986, z: 0}
-    m_Extent: {x: 0.9943198, y: 0.66797966, z: 0}
+    m_Center: {x: 0.010681212, y: -0.0070199966, z: 0}
+    m_Extent: {x: 0.9943199, y: 0.6679799, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1103180189
@@ -22408,8 +22387,8 @@ MonoBehaviour:
   - {fileID: 565643270}
   - {fileID: 1707886429}
   m_Bounds:
-    m_Center: {x: 0.047059298, y: 0.04063636, z: 0}
-    m_Extent: {x: 0.38150048, y: 0.589059, z: 0}
+    m_Center: {x: -0.011489153, y: 0.008913875, z: 0}
+    m_Extent: {x: 0.32473493, y: 0.6104802, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1238017354
@@ -27611,8 +27590,8 @@ MonoBehaviour:
   - {fileID: 749992140}
   - {fileID: 644131368}
   m_Bounds:
-    m_Center: {x: 0.11842382, y: -0.5338158, z: 0}
-    m_Extent: {x: 0.66553235, y: 0.74896663, z: 0}
+    m_Center: {x: 0.09537506, y: -0.50409496, z: 0}
+    m_Extent: {x: 0.6649977, y: 0.73669076, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1670446657
@@ -29819,8 +29798,8 @@ MonoBehaviour:
   - {fileID: 813348363}
   - {fileID: 76552357}
   m_Bounds:
-    m_Center: {x: 0.0006366074, y: 0.008314431, z: 0}
-    m_Extent: {x: 0.43936557, y: 0.75119436, z: 0}
+    m_Center: {x: 0.00063607097, y: 0.008315086, z: 0}
+    m_Extent: {x: 0.4393656, y: 0.7511946, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1826926386
@@ -31034,7 +31013,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1887949221}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 66e7ad30ae8893744aeb14878266301f, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 88add7ccba618fb4c874cfc71f4f31b0, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -31880,8 +31859,8 @@ MonoBehaviour:
   - {fileID: 791234977}
   - {fileID: 1172813667}
   m_Bounds:
-    m_Center: {x: 0.01507622, y: -0.41306365, z: 0}
-    m_Extent: {x: 0.3259998, y: 0.58180976, z: 0}
+    m_Center: {x: 0.015076458, y: -0.41306353, z: 0}
+    m_Extent: {x: 0.32600057, y: 0.58180994, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1913126181
@@ -36587,6 +36566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff7d2e1ddbaef7e4f931e5b1e4409049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveEvent: {fileID: 0}
   _CharacterMovement: {fileID: 6182261442259392630}
   _PointSystem: {fileID: 1874959529}
   DraggingItem: {fileID: 0}
