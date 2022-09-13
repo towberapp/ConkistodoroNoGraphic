@@ -50,5 +50,6 @@ public class AuditionPers : MonoBehaviour
     }
 
     // test
+    // + coding
 
 }
