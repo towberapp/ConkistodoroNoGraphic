@@ -52,10 +52,23 @@ public class AnimationController : MonoBehaviour
         GameProgressManager.Manager.PlayerData.Animator = newController.name;
         SetStartSide(_StartSide);
     }
+
+    public void SetSide(PlayerSide newSide)
+    {
+        _StartSide = newSide;
+        SetPlayerSide(newSide);
+    }
+
     public void SetStartSide(PlayerSide newSide)
     {
         _StartSide = newSide;
         _Animator.Play(newSide.AnimationName);
+    }
+
+    public void SetPlayerSide(PlayerSide side)
+    {
+        string animName = side.AnimationName;
+        _Animator.Play(animName);
     }
 
     public void UpdateSide()
@@ -108,11 +121,7 @@ public class AnimationController : MonoBehaviour
         _Animator?.SetBool("IsMoving", false);
         UpdateSide();
     }
-    public void SetPlayerSide(PlayerSide side)
-    {
-        string animName = side.AnimationName;
-        _Animator.Play(animName);
-    }
+
 
     private void ResetChildPos()
     {
