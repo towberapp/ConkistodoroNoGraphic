@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Time: 2.1666666666666665
+  m_Time: 3.683333333333333
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 9d626dd6feae9184184665b6b4842ec7, type: 2}
@@ -548,7 +548,7 @@ MonoBehaviour:
   - {fileID: 500558773155696913}
   - {fileID: 4680977972659863303}
   - {fileID: 741540665397413351}
-  m_FixedDuration: 2.1666666666666665
+  m_FixedDuration: 3.683333333333333
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
@@ -629,8 +629,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -4759382013718417438}
-    m_Duration: 2.4166666666666665
+    m_Asset: {fileID: 8318395204028720481}
+    m_Duration: 3.7666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 447266216668336067}
     m_EaseInDuration: 0
@@ -663,7 +663,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -676,7 +694,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: Zad 3-4Pravo vzyl Chaynik
+    m_DisplayName: Zad 3-4Pravo beret Kefeynik i prychit
   m_Markers:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 0
@@ -844,7 +862,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 6151460589116001589}
-    m_Duration: 2.816666666666667
+    m_Duration: 3.7666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3015393492983214655}
     m_EaseInDuration: 0
@@ -999,3 +1017,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
+--- !u!114 &8318395204028720481
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: d88b3953596fb4441be956a07a175c32, type: 2}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
