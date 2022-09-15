@@ -19,9 +19,13 @@ public class AuditionPers : MonoBehaviour
         SetStandart();
     }
 
-    public void SetClip(AudioClip clip)
+    public void SetAudio_A(AudioClip clip)
     {
         SetClipInAudioSorce(clip, leftAudioSource);
+    }
+
+    public void SetAudio_B(AudioClip clip)
+    {
         SetClipInAudioSorce(clip, rightudioSource);
     }
 
@@ -35,10 +39,13 @@ public class AuditionPers : MonoBehaviour
     {
         if (check)
         {
-            leftAudioSource.Play();
-        } else
+            if (leftAudioSource.clip != null)
+                leftAudioSource.Play();
+        }
+        else
         {
-            rightudioSource.Play();
+            if (rightudioSource.clip != null)
+                rightudioSource.Play();
         }
         check = !check;
     }
@@ -48,9 +55,6 @@ public class AuditionPers : MonoBehaviour
         if (clip != null)
             source.clip = clip;
     }
-
-    // test
-    // new main
 
 
 }

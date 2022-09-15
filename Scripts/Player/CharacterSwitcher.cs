@@ -24,14 +24,17 @@ public class CharacterSwitcher : MonoBehaviour
         _IsSwitching = false;
     }
 
+    // set timeline
     private IEnumerator Switching(GameObject toDisable, List<GameObject> toEnable)
     {
         while (_IsSwitching)
             yield return null;
         _IsSwitching = true;
         bool isReady = false;
+
         foreach (GameObject obj in toEnable)
             obj.SetActive(true);
+
         while (!isReady)
         {
             isReady = true;
@@ -40,22 +43,42 @@ public class CharacterSwitcher : MonoBehaviour
                     isReady = false;
             yield return null;
         }
+       
+
         toDisable.SetActive(false);
+
+        foreach (Transform child in toDisable.transform)
+        {
+            if (child.tag == "Player")
+            {
+                child.gameObject.SetActive(false);
+            }
+        }
+
         _IsSwitching = false;
     }
 
+
+    // set main
     private IEnumerator Switching(List<GameObject> toDisable, GameObject toEnable)
     {
+
         while (_IsSwitching)
             yield return null;
         _IsSwitching = true;
+
         toEnable.SetActive(true);
+
+        yield return new WaitForSeconds(0.01f);
+
         while (!toEnable.activeSelf)
             yield return null;
+
         foreach (GameObject obj in toDisable)
             obj.SetActive(false);
         _IsSwitching = false;
     }
+
     public void SetMain()
     {
         StartCoroutine(Switching(_TimelineCharacters, _MainCharacter));
