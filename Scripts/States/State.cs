@@ -8,6 +8,9 @@ public class State : MonoBehaviour
     public string Value
     {
         get => _Value;
-        set => _Value = value;
+        set {
+            //Debug.Log("SET: " + value);
+            _Value = value;
+        }
     }
 }

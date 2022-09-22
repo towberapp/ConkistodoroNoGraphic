@@ -45,6 +45,7 @@ public class ObjectProgressManager : MonoBehaviour
     }
     public void SetState(string state)
     {
+        //Debug.Log("STATE: " + _ObjectName + " - " + state);
         _CurrentState = state;
         _SceneProgressManager.ChangeState(_ObjectName, state);
     }

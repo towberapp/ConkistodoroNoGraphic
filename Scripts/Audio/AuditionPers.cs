@@ -16,6 +16,10 @@ public class AuditionPers : MonoBehaviour
     {
         leftAudioSource = gameObject.AddComponent<AudioSource>();
         rightudioSource = gameObject.AddComponent<AudioSource>();
+
+        leftAudioSource.playOnAwake = false;
+        rightudioSource.playOnAwake = false;
+
         SetStandart();
     }
 
