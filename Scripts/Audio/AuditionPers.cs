@@ -12,11 +12,23 @@ public class AuditionPers : MonoBehaviour
 
     private bool check = true;
 
+    private AudioSource[] sounds;
+
     private void Awake()
     {
-        leftAudioSource = gameObject.AddComponent<AudioSource>();
-        rightudioSource = gameObject.AddComponent<AudioSource>();
+        sounds = GetComponents<AudioSource>();
 
+        if (sounds == null)
+        {
+            leftAudioSource = gameObject.AddComponent<AudioSource>();
+            rightudioSource = gameObject.AddComponent<AudioSource>();
+        } else
+        {
+            leftAudioSource = sounds[0];
+            rightudioSource = sounds[1];
+        }
+
+        
         leftAudioSource.playOnAwake = false;
         rightudioSource.playOnAwake = false;
 
@@ -43,12 +55,12 @@ public class AuditionPers : MonoBehaviour
     {
         if (check)
         {
-            if (leftAudioSource.clip != null)
+            if (leftAudioSource.clip != null && !leftAudioSource.isPlaying)
                 leftAudioSource.Play();
         }
         else
         {
-            if (rightudioSource.clip != null)
+            if (rightudioSource.clip != null && !rightudioSource.isPlaying)
                 rightudioSource.Play();
         }
         check = !check;
