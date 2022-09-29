@@ -1731,7 +1731,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.8
-        value: {x: 1.05, y: 1.516, z: 0}
+        value: {x: 1.05, y: 1.67, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1740,7 +1740,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.7333333
-        value: {x: 1.05, y: 1.516, z: 0}
+        value: {x: 1.05, y: 1.67, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -3063,7 +3063,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.8
-        value: 1.516
+        value: 1.67
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3072,7 +3072,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.7333333
-        value: 1.516
+        value: 1.67
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -9978,7 +9978,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9988,7 +9988,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9998,67 +9998,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10098,7 +10038,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10108,7 +10048,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10118,67 +10058,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10218,7 +10098,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10228,7 +10108,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10238,7 +10118,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10248,7 +10128,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10258,7 +10138,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10268,7 +10148,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1/L ruka bone_2
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Pered 3-4 Pravo/Telo/P noga/P noga bone_1/P noga bone_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10307,8 +10217,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
+    attribute: m_LocalEulerAngles.z
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10318,7 +10228,17 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10328,7 +10248,87 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Pered 3-4 Pravo/Telo/L noga/L noga bone_1/L noga bone_2
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Pered 3-4 Pravo/Telo/L ruka/L ruka bone_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Pered 3-4 Pravo/Telo/P ruka/P ruka bone_1/P ruka bone_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Pered 3-4 Pravo/Telo/golova/golova  bone_1A
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
