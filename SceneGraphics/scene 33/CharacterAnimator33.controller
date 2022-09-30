@@ -232,6 +232,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-6432563481405137942
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 33 3-4 Pravo zakril Derjaku s 2tohki
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: a97016d9d22f0ec4eae10dbfe6deeded, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!114 &-6183075443945812873
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1031,6 +1057,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c30d4f343c346e4d802ea35cbbb9641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1102 &1910761644484062745
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 33 3-4 Pravo  ustanovka  Garpuna 2Tohka
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0ed12176f3a18294eb5a45e6f04d00be, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1961921240327304549
 AnimatorState:
   serializedVersion: 6
@@ -1412,6 +1464,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -2810222661049238119}
     m_Position: {x: 851.78125, y: 1272.8274, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6432563481405137942}
+    m_Position: {x: 886.78125, y: 1337.8274, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1910761644484062745}
+    m_Position: {x: 921.78125, y: 1402.8274, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
