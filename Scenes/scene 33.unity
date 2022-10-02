@@ -822,8 +822,8 @@ MonoBehaviour:
   - {fileID: 679620282}
   - {fileID: 1628893531}
   m_Bounds:
-    m_Center: {x: 0.13962692, y: 0.022860885, z: 0}
-    m_Extent: {x: 0.5121608, y: 0.47214675, z: 0}
+    m_Center: {x: 0.009909362, y: -0.45300198, z: 0}
+    m_Extent: {x: 0.4563502, y: 0.6946851, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &60044987
@@ -8346,8 +8346,8 @@ MonoBehaviour:
   - {fileID: 1163767522}
   - {fileID: 2124920334}
   m_Bounds:
-    m_Center: {x: 0.10174763, y: -0.4407534, z: 0}
-    m_Extent: {x: 0.9601022, y: 0.5962089, z: 0}
+    m_Center: {x: -0.023607016, y: -0.27800247, z: 0}
+    m_Extent: {x: 0.9967339, y: 0.41914013, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &403021925
@@ -8913,6 +8913,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1887949222}
+        m_TargetAssemblyTypeName: TimelineManager, Assembly-CSharp
+        m_MethodName: AddToQueue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 3ace5311a244718498a07546b0b690f8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Timeline.TimelineAsset, Unity.Timeline
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11385,8 +11398,8 @@ MonoBehaviour:
   - {fileID: 2090374762}
   - {fileID: 1654022919}
   m_Bounds:
-    m_Center: {x: 0.12693942, y: 0.06455594, z: 0}
-    m_Extent: {x: 1.0021862, y: 0.6655104, z: 0}
+    m_Center: {x: 0.124877155, y: 0.06533295, z: 0}
+    m_Extent: {x: 1.0015357, y: 0.6649826, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &599127763
@@ -11827,8 +11840,8 @@ MonoBehaviour:
   - {fileID: 839873669}
   - {fileID: 18904285}
   m_Bounds:
-    m_Center: {x: -0.1845614, y: -0.36640736, z: 0}
-    m_Extent: {x: 0.35778418, y: 0.44069853, z: 0}
+    m_Center: {x: 0.014869392, y: -0.4560628, z: 0}
+    m_Extent: {x: 0.32397556, y: 0.5944495, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &631414673
@@ -12845,7 +12858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: 0522a5a9af4ac3e4986003f701bc6fdf, type: 2}
+    - {fileID: 11400000, guid: 766e13ad3c160304eb01207173a009d2, type: 2}
+    - {fileID: 11400000, guid: 4774dc1102fa0e8458bb8cbd7ddd690a, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -12859,6 +12873,20 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: Open
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 685235411}
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
+          m_MethodName: set_Value
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Close
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &685235414
@@ -14608,8 +14636,8 @@ MonoBehaviour:
   - {fileID: 532522809}
   - {fileID: 584060048}
   m_Bounds:
-    m_Center: {x: 0.12589186, y: 0.07677406, z: 0}
-    m_Extent: {x: 0.33428276, y: 0.50250566, z: 0}
+    m_Center: {x: 0.009997338, y: -0.004669428, z: 0}
+    m_Extent: {x: 0.32476836, y: 0.5834029, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &766344638
@@ -18211,8 +18239,8 @@ MonoBehaviour:
   - {fileID: 2071962136}
   - {fileID: 1080504219}
   m_Bounds:
-    m_Center: {x: 0.07038361, y: -0.6389809, z: 0}
-    m_Extent: {x: 0.5377577, y: 0.78157145, z: 0}
+    m_Center: {x: 0.26301268, y: -0.44851577, z: 0}
+    m_Extent: {x: 0.5830734, y: 0.67100227, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &997534381
@@ -20214,8 +20242,8 @@ MonoBehaviour:
   - {fileID: 718564480}
   - {fileID: 1872922478}
   m_Bounds:
-    m_Center: {x: 0.51566803, y: 0.60169977, z: 0}
-    m_Extent: {x: 0.63411033, y: 0.4484629, z: 0}
+    m_Center: {x: 0.0012176633, y: 0.009206116, z: 0}
+    m_Extent: {x: 0.43781304, y: 0.75053024, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1111039724
@@ -21763,8 +21791,8 @@ MonoBehaviour:
   - {fileID: 65101496}
   - {fileID: 1627921497}
   m_Bounds:
-    m_Center: {x: 0.1672214, y: -0.06920108, z: 0}
-    m_Extent: {x: 0.46361962, y: 0.4330764, z: 0}
+    m_Center: {x: 0.003540814, y: -0.43782175, z: 0}
+    m_Extent: {x: 0.4525149, y: 0.62949324, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1196099388
@@ -22751,8 +22779,8 @@ MonoBehaviour:
   - {fileID: 565643270}
   - {fileID: 1707886429}
   m_Bounds:
-    m_Center: {x: 0.2292616, y: 0.43384773, z: 0}
-    m_Extent: {x: 0.47526294, y: 0.37277597, z: 0}
+    m_Center: {x: -0.013770282, y: 0.006811261, z: 0}
+    m_Extent: {x: 0.3227504, y: 0.61231184, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1238017354
@@ -27846,7 +27874,7 @@ SpriteRenderer:
   m_Size: {x: 1.19, y: 1.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1645185786
@@ -28113,8 +28141,8 @@ MonoBehaviour:
   - {fileID: 749992140}
   - {fileID: 644131368}
   m_Bounds:
-    m_Center: {x: 0.095377624, y: -0.50409627, z: 0}
-    m_Extent: {x: 0.6649974, y: 0.7366899, z: 0}
+    m_Center: {x: 0.081778884, y: -0.5071144, z: 0}
+    m_Extent: {x: 0.664906, y: 0.7392527, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1670446657
@@ -29469,8 +29497,8 @@ MonoBehaviour:
   - {fileID: 1058277709}
   - {fileID: 531499793}
   m_Bounds:
-    m_Center: {x: -0.4026612, y: -0.00083607435, z: 0}
-    m_Extent: {x: 0.58390594, y: 0.31789786, z: 0}
+    m_Center: {x: -0.030007362, y: -0.4265346, z: 0}
+    m_Extent: {x: 0.3181495, y: 0.58569163, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1770193220
@@ -31574,7 +31602,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1887949221}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: fccd323d8164049469c617d55bd7599c, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 3ace5311a244718498a07546b0b690f8, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -31966,8 +31994,19 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -1058662248291293677, guid: 2234b8d98a8eb9b4495eebc141165856, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -7559249167085259129, guid: fccd323d8164049469c617d55bd7599c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6898703107130075731, guid: f70b1268e15774a43867fe3aefd66de0, type: 2}
+    value: {fileID: 685235413}
+  - key: {fileID: 3814118376771599705, guid: 3ace5311a244718498a07546b0b690f8, type: 2}
+    value: {fileID: 99593111}
+  - key: {fileID: 6970906560117290669, guid: 3ace5311a244718498a07546b0b690f8, type: 2}
+    value: {fileID: 99593110}
+  - key: {fileID: 4555230523063146614, guid: 3ace5311a244718498a07546b0b690f8, type: 2}
+    value: {fileID: 99593113}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 810f02c9b6b6358458991f818d671f81: {fileID: 1785824148}
 --- !u!4 &1887949225
 Transform:
   m_ObjectHideFlags: 0
@@ -35030,8 +35069,8 @@ MonoBehaviour:
   - {fileID: 584736085}
   - {fileID: 738776920}
   m_Bounds:
-    m_Center: {x: 0.03733468, y: 0.01910597, z: 0}
-    m_Extent: {x: 0.42825365, y: 0.7661915, z: 0}
+    m_Center: {x: 0.0013363361, y: 0.0005901456, z: 0}
+    m_Extent: {x: 0.42366558, y: 0.7578192, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2049563880
