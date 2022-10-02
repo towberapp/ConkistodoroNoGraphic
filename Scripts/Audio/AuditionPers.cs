@@ -18,7 +18,7 @@ public class AuditionPers : MonoBehaviour
     {
         sounds = GetComponents<AudioSource>();
 
-        if (sounds == null)
+        if (sounds.Length == 0)
         {
             leftAudioSource = gameObject.AddComponent<AudioSource>();
             rightudioSource = gameObject.AddComponent<AudioSource>();
@@ -34,6 +34,7 @@ public class AuditionPers : MonoBehaviour
 
         SetStandart();
     }
+
 
     public void SetAudio_A(AudioClip clip)
     {
@@ -53,6 +54,7 @@ public class AuditionPers : MonoBehaviour
 
     public void PlayPesrAudio()
     {
+
         if (check)
         {
             if (leftAudioSource.clip != null && !leftAudioSource.isPlaying)
