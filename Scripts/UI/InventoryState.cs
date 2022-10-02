@@ -9,6 +9,8 @@ public class InventoryState : MonoBehaviour
     [Range(0,1)]
     private float _DistanceToAppear = 0.125f;
 
+    [SerializeField] private Animator rightPanel;
+
     private Animator _Animator = null;
     private Coroutine _Monitoring = null;
     public bool IsActive { get; private set; } = false;
@@ -25,12 +27,16 @@ public class InventoryState : MonoBehaviour
             bool isShowingItems = transform.parent.GetComponentsInChildren<NewItemShower>().Length > 1;
             if (IsActive && 1 - Input.mousePosition.y / Screen.height > _DistanceToAppear && !isShowingItems)
             {
-                _Animator.Play("Disappear");
+                _Animator.Play("Disappear");                
+                rightPanel?.Play("Disappear");
+
+
                 IsActive = false;
             }
             else if (!IsActive && 1 - Input.mousePosition.y / Screen.height < _DistanceToAppear || isShowingItems)
             {
                 _Animator.Play("Appear");
+                rightPanel?.Play("Appear");
                 IsActive = true;
             }
             yield return null;
