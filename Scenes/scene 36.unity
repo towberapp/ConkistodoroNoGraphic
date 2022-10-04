@@ -1983,6 +1983,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &118632257
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &127058459
 GameObject:
   m_ObjectHideFlags: 0
@@ -9302,8 +9336,8 @@ MonoBehaviour:
   - {fileID: 1367590840}
   - {fileID: 1922579548}
   m_Bounds:
-    m_Center: {x: -0.017157823, y: 0.00818485, z: 0}
-    m_Extent: {x: 0.32214063, y: 0.6151566, z: 0}
+    m_Center: {x: 0.2556615, y: 0.2233837, z: 0}
+    m_Extent: {x: 0.52684784, y: 0.48832685, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &454249963
@@ -11206,8 +11240,8 @@ MonoBehaviour:
   - {fileID: 652927637}
   - {fileID: 250847127}
   m_Bounds:
-    m_Center: {x: 0.0012159348, y: 0.009206235, z: 0}
-    m_Extent: {x: 0.43781233, y: 0.75053, z: 0}
+    m_Center: {x: 0.015027732, y: 0.0152462125, z: 0}
+    m_Extent: {x: 0.44565353, y: 0.7509052, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &531468726
@@ -21059,8 +21093,8 @@ MonoBehaviour:
   - {fileID: 2130962776}
   - {fileID: 801201624}
   m_Bounds:
-    m_Center: {x: 0.005323112, y: -0.0015922785, z: 0}
-    m_Extent: {x: 0.32724017, y: 0.5739913, z: 0}
+    m_Center: {x: -0.20739174, y: 0.16564411, z: 0}
+    m_Extent: {x: 0.511402, y: 0.44498414, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &945671158
@@ -31491,7 +31525,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1413902534}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 0d903624f4da61241a284c00b77e6466, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 1dbd9da5de8c1e34585d5df0a63f563d, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -37569,8 +37603,8 @@ MonoBehaviour:
   - {fileID: 1319141989}
   - {fileID: 557400215}
   m_Bounds:
-    m_Center: {x: 0.0013352334, y: 0.0005905032, z: 0}
-    m_Extent: {x: 0.42366683, y: 0.7578194, z: 0}
+    m_Center: {x: -0.0056550503, y: -0.007079065, z: 0}
+    m_Extent: {x: 0.42959338, y: 0.76872015, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1625067459
@@ -39329,8 +39363,8 @@ MonoBehaviour:
   - {fileID: 616001643}
   - {fileID: 386594257}
   m_Bounds:
-    m_Center: {x: 0.07893884, y: -0.5100827, z: 0}
-    m_Extent: {x: 0.66478866, y: 0.74107444, z: 0}
+    m_Center: {x: 0.09537786, y: -0.5040946, z: 0}
+    m_Extent: {x: 0.6650002, y: 0.7366903, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1692461379
@@ -39816,8 +39850,8 @@ MonoBehaviour:
   - {fileID: 1978665157}
   - {fileID: 1135343924}
   m_Bounds:
-    m_Center: {x: 0.12362218, y: 0.06545848, z: 0}
-    m_Extent: {x: 0.9990573, y: 0.66305196, z: 0}
+    m_Center: {x: 0.12694049, y: 0.06455761, z: 0}
+    m_Extent: {x: 1.0021875, y: 0.66551065, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1704996711
@@ -45124,40 +45158,6 @@ Transform:
   m_Father: {fileID: 681163806}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1921320842
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1922579547
 GameObject:
   m_ObjectHideFlags: 0
@@ -49136,7 +49136,7 @@ MonoBehaviour:
   - {fileID: 1872982444}
   - {fileID: 449828986}
   m_Bounds:
-    m_Center: {x: -0.003888458, y: -0.48047018, z: 0}
+    m_Center: {x: -0.0038875043, y: -0.48047018, z: 0}
     m_Extent: {x: 0.42254016, y: 0.67916536, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
