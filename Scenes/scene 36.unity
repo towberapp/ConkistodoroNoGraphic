@@ -1629,8 +1629,8 @@ MonoBehaviour:
   - {fileID: 395368318}
   - {fileID: 317987340}
   m_Bounds:
-    m_Center: {x: 0.000006377697, y: 0.029353857, z: 0}
-    m_Extent: {x: 0.66500014, y: 0.7193561, z: 0}
+    m_Center: {x: 0.0000057816505, y: 0.029353857, z: 0}
+    m_Extent: {x: 0.665, y: 0.7193561, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &92857577
@@ -1983,6 +1983,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &118632257
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &127058459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2772,7 +2806,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: add570ccd631b0a4d98044e68280f832, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0bc666025440f8e409b7390cb75114f4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -9302,8 +9336,8 @@ MonoBehaviour:
   - {fileID: 1367590840}
   - {fileID: 1922579548}
   m_Bounds:
-    m_Center: {x: -0.028651327, y: 0.023917854, z: 0}
-    m_Extent: {x: 0.32289696, y: 0.6232378, z: 0}
+    m_Center: {x: 0.2556615, y: 0.2233837, z: 0}
+    m_Extent: {x: 0.52684784, y: 0.48832685, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &454249963
@@ -11206,8 +11240,8 @@ MonoBehaviour:
   - {fileID: 652927637}
   - {fileID: 250847127}
   m_Bounds:
-    m_Center: {x: 0.0012171268, y: 0.009206235, z: 0}
-    m_Extent: {x: 0.4378121, y: 0.75053, z: 0}
+    m_Center: {x: 0.015027732, y: 0.0152462125, z: 0}
+    m_Extent: {x: 0.44565353, y: 0.7509052, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &531468726
@@ -16179,7 +16213,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.076
+  m_Volume: 0.365
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16566,8 +16600,8 @@ MonoBehaviour:
   - {fileID: 1680732389}
   - {fileID: 1739458904}
   m_Bounds:
-    m_Center: {x: 0.00063610077, y: 0.008315086, z: 0}
-    m_Extent: {x: 0.43936467, y: 0.75119495, z: 0}
+    m_Center: {x: 0.0006363392, y: 0.008314669, z: 0}
+    m_Extent: {x: 0.43936515, y: 0.75119454, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &754853768
@@ -16659,7 +16693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762027136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.45, y: 17.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 393497829}
@@ -19533,8 +19567,8 @@ MonoBehaviour:
   - {fileID: 754540525}
   - {fileID: 456754754}
   m_Bounds:
-    m_Center: {x: -0.0016177297, y: -0.0006942749, z: 0}
-    m_Extent: {x: 0.42169416, y: 0.7574847, z: 0}
+    m_Center: {x: -0.001613915, y: -0.0006942153, z: 0}
+    m_Extent: {x: 0.4216951, y: 0.75748473, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &846682171
@@ -21059,8 +21093,8 @@ MonoBehaviour:
   - {fileID: 2130962776}
   - {fileID: 801201624}
   m_Bounds:
-    m_Center: {x: 0.01516515, y: 0.0057183504, z: 0}
-    m_Extent: {x: 0.3233748, y: 0.5879741, z: 0}
+    m_Center: {x: -0.20739174, y: 0.16564411, z: 0}
+    m_Extent: {x: 0.511402, y: 0.44498414, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &945671158
@@ -26138,8 +26172,8 @@ MonoBehaviour:
   - {fileID: 1414190874}
   - {fileID: 36884983}
   m_Bounds:
-    m_Center: {x: 0.010680735, y: -0.0070194006, z: 0}
-    m_Extent: {x: 0.99431944, y: 0.6679799, z: 0}
+    m_Center: {x: 0.010681927, y: -0.0070189238, z: 0}
+    m_Extent: {x: 0.9943197, y: 0.6679804, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1210873574
@@ -27801,8 +27835,8 @@ MonoBehaviour:
   - {fileID: 2048109833}
   - {fileID: 525835385}
   m_Bounds:
-    m_Center: {x: -0.011331916, y: -0.46041965, z: 0}
-    m_Extent: {x: 0.3252891, y: 0.6139543, z: 0}
+    m_Center: {x: -0.011330724, y: -0.46041918, z: 0}
+    m_Extent: {x: 0.32528993, y: 0.6139538, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1279503399
@@ -28572,7 +28606,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315969307}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bc74ab60888de6244abb85850ef5aec5, type: 2}
   m_CullingMode: 0
@@ -31491,7 +31525,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1413902534}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: be1795abca28e95479fbc56d3b6497e9, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 1dbd9da5de8c1e34585d5df0a63f563d, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -31778,6 +31812,20 @@ PlayableDirector:
   - key: {fileID: -5171792803912190921, guid: 0d8f2b707b278724eb85dd0fa23dd3f3, type: 2}
     value: {fileID: 0}
   - key: {fileID: 848543136345542002, guid: 3a0b3fee891dfaf41a78b5ba927def8f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1404868256003942508, guid: be1795abca28e95479fbc56d3b6497e9, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3305536225845516539, guid: d605da8d78ed0ae49bc46ce52643adc3, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2561968113504295246, guid: 9f0ca633e099d3548b8a665891cf1c40, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1103720435616905049, guid: 1698189cce8e95e488a3b5f813db2a31, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 576839160135917819, guid: 5814453a2a585a447956388d62f6d625, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1832041338809763340, guid: b22e9896f648a1649b80a2d523979ab5, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -426404792301240502, guid: 22cb715b434d5d1478945364c5a6091c, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -37555,8 +37603,8 @@ MonoBehaviour:
   - {fileID: 1319141989}
   - {fileID: 557400215}
   m_Bounds:
-    m_Center: {x: 0.007183045, y: -0.019780576, z: 0}
-    m_Extent: {x: 0.4246487, y: 0.7806198, z: 0}
+    m_Center: {x: -0.0056550503, y: -0.007079065, z: 0}
+    m_Extent: {x: 0.42959338, y: 0.76872015, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1625067459
@@ -39315,8 +39363,8 @@ MonoBehaviour:
   - {fileID: 616001643}
   - {fileID: 386594257}
   m_Bounds:
-    m_Center: {x: 0.0953781, y: -0.50409555, z: 0}
-    m_Extent: {x: 0.66499996, y: 0.7366903, z: 0}
+    m_Center: {x: 0.09537786, y: -0.5040946, z: 0}
+    m_Extent: {x: 0.6650002, y: 0.7366903, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1692461379
@@ -39802,8 +39850,8 @@ MonoBehaviour:
   - {fileID: 1978665157}
   - {fileID: 1135343924}
   m_Bounds:
-    m_Center: {x: 0.12694049, y: 0.06455803, z: 0}
-    m_Extent: {x: 1.0021875, y: 0.66551024, z: 0}
+    m_Center: {x: 0.12694049, y: 0.06455761, z: 0}
+    m_Extent: {x: 1.0021875, y: 0.66551065, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1704996711
@@ -40889,7 +40937,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -36
+  m_SortingOrder: -300
   m_Sprite: {fileID: 21300000, guid: ee27e1fe092e67d4db6133f1315449ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42901,8 +42949,8 @@ MonoBehaviour:
   - {fileID: 346079671}
   - {fileID: 1094793237}
   m_Bounds:
-    m_Center: {x: 0.015075028, y: -0.41306365, z: 0}
-    m_Extent: {x: 0.32600102, y: 0.5818097, z: 0}
+    m_Center: {x: 0.015077174, y: -0.41306394, z: 0}
+    m_Extent: {x: 0.32600006, y: 0.58181036, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1844299112
@@ -46540,40 +46588,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!21 &1995304110
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &2003764128
 GameObject:
   m_ObjectHideFlags: 0
@@ -49122,8 +49136,8 @@ MonoBehaviour:
   - {fileID: 1872982444}
   - {fileID: 449828986}
   m_Bounds:
-    m_Center: {x: -0.003886789, y: -0.48047018, z: 0}
-    m_Extent: {x: 0.42253992, y: 0.67916536, z: 0}
+    m_Center: {x: -0.0038875043, y: -0.48047018, z: 0}
+    m_Extent: {x: 0.42254016, y: 0.67916536, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2096264396
