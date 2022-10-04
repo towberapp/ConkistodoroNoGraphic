@@ -1629,8 +1629,8 @@ MonoBehaviour:
   - {fileID: 395368318}
   - {fileID: 317987340}
   m_Bounds:
-    m_Center: {x: 0.000005364418, y: 0.029353857, z: 0}
-    m_Extent: {x: 0.6650001, y: 0.7193561, z: 0}
+    m_Center: {x: 0.0000057816505, y: 0.029353857, z: 0}
+    m_Extent: {x: 0.665, y: 0.7193561, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &92857577
@@ -16566,7 +16566,7 @@ MonoBehaviour:
   - {fileID: 1680732389}
   - {fileID: 1739458904}
   m_Bounds:
-    m_Center: {x: 0.0006365776, y: 0.008314669, z: 0}
+    m_Center: {x: 0.0006363392, y: 0.008314669, z: 0}
     m_Extent: {x: 0.43936515, y: 0.75119454, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -19533,8 +19533,8 @@ MonoBehaviour:
   - {fileID: 754540525}
   - {fileID: 456754754}
   m_Bounds:
-    m_Center: {x: -0.0016148686, y: -0.00069475174, z: 0}
-    m_Extent: {x: 0.4216951, y: 0.7574842, z: 0}
+    m_Center: {x: -0.001613915, y: -0.0006942153, z: 0}
+    m_Extent: {x: 0.4216951, y: 0.75748473, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &846682171
@@ -26138,8 +26138,8 @@ MonoBehaviour:
   - {fileID: 1414190874}
   - {fileID: 36884983}
   m_Bounds:
-    m_Center: {x: 0.010681212, y: -0.0070198774, z: 0}
-    m_Extent: {x: 0.9943204, y: 0.6679804, z: 0}
+    m_Center: {x: 0.010681927, y: -0.0070189238, z: 0}
+    m_Extent: {x: 0.9943197, y: 0.6679804, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1210873574
@@ -27801,8 +27801,8 @@ MonoBehaviour:
   - {fileID: 2048109833}
   - {fileID: 525835385}
   m_Bounds:
-    m_Center: {x: -0.0113300085, y: -0.46042013, z: 0}
-    m_Extent: {x: 0.32529005, y: 0.6139538, z: 0}
+    m_Center: {x: -0.011330724, y: -0.46041918, z: 0}
+    m_Extent: {x: 0.32528993, y: 0.6139538, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1279503399
@@ -31491,7 +31491,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1413902534}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 22cb715b434d5d1478945364c5a6091c, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 0d903624f4da61241a284c00b77e6466, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -31790,6 +31790,8 @@ PlayableDirector:
   - key: {fileID: 576839160135917819, guid: 5814453a2a585a447956388d62f6d625, type: 2}
     value: {fileID: 0}
   - key: {fileID: -1832041338809763340, guid: b22e9896f648a1649b80a2d523979ab5, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -426404792301240502, guid: 22cb715b434d5d1478945364c5a6091c, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -42913,8 +42915,8 @@ MonoBehaviour:
   - {fileID: 346079671}
   - {fileID: 1094793237}
   m_Bounds:
-    m_Center: {x: 0.01507622, y: -0.41306394, z: 0}
-    m_Extent: {x: 0.32599983, y: 0.58181036, z: 0}
+    m_Center: {x: 0.015077174, y: -0.41306394, z: 0}
+    m_Extent: {x: 0.32600006, y: 0.58181036, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1844299112
@@ -45122,6 +45124,40 @@ Transform:
   m_Father: {fileID: 681163806}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1921320842
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1922579547
 GameObject:
   m_ObjectHideFlags: 0
@@ -45505,40 +45541,6 @@ Transform:
   m_Father: {fileID: 210343462}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1955328881
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1961421781
 GameObject:
   m_ObjectHideFlags: 0
