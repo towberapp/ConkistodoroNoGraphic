@@ -328,6 +328,40 @@ Transform:
   m_Father: {fileID: 1342213270}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &31362865
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &35321145
 GameObject:
   m_ObjectHideFlags: 0
@@ -31491,7 +31525,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1413902534}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: dccbe0407a0e6ef43a679bb192f8d65e, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 3038e1dd5f874c1409398329db842b52, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -31792,6 +31826,8 @@ PlayableDirector:
   - key: {fileID: -1832041338809763340, guid: b22e9896f648a1649b80a2d523979ab5, type: 2}
     value: {fileID: 0}
   - key: {fileID: -426404792301240502, guid: 22cb715b434d5d1478945364c5a6091c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -5596833222615049409, guid: dccbe0407a0e6ef43a679bb192f8d65e, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -47842,40 +47878,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!21 &2042072464
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &2046291563
 GameObject:
   m_ObjectHideFlags: 0
@@ -49611,7 +49613,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Normal
+            m_StringArgument: rmalal
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 287474442}
@@ -67972,8 +67974,8 @@ MonoBehaviour:
   - {fileID: 8758249500580453945}
   - {fileID: 8758249501766294159}
   m_Bounds:
-    m_Center: {x: -0.011330485, y: -0.4604203, z: 0}
-    m_Extent: {x: 0.32529005, y: 0.6139541, z: 0}
+    m_Center: {x: -0.20344818, y: -0.3313416, z: 0}
+    m_Extent: {x: 0.4908706, y: 0.4979829, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &8758249502514493221
@@ -68213,8 +68215,8 @@ MonoBehaviour:
   - {fileID: 8758249501713822044}
   - {fileID: 8758249501796253063}
   m_Bounds:
-    m_Center: {x: 0.015076458, y: -0.41306365, z: 0}
-    m_Extent: {x: 0.32600003, y: 0.5818097, z: 0}
+    m_Center: {x: 0.1674374, y: -0.32865083, z: 0}
+    m_Extent: {x: 0.41372114, y: 0.52197397, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &8758249502541932727
