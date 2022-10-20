@@ -1664,7 +1664,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 46788b717210bf1489f8ef27d25924fc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.078
+  m_Volume: 0.085
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1940,7 +1940,7 @@ PlayableDirector:
   m_GameObject: {fileID: 52575353}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f7ff189c5ae6b58448c507d3923266fe, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 72e75c6f7561beb439633cd0ff7c41d3, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -5554,8 +5554,8 @@ MonoBehaviour:
   - {fileID: 1856433776}
   - {fileID: 1759601947}
   m_Bounds:
-    m_Center: {x: 0.007965207, y: -0.002276063, z: 0}
-    m_Extent: {x: 0.32587174, y: 0.57609487, z: 0}
+    m_Center: {x: 0.009171128, y: -0.003139019, z: 0}
+    m_Extent: {x: 0.32545787, y: 0.5797293, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &143883653
@@ -8310,8 +8310,8 @@ MonoBehaviour:
   - {fileID: 375019183}
   - {fileID: 59454439}
   m_Bounds:
-    m_Center: {x: 0.10125318, y: 0.036147416, z: 0}
-    m_Extent: {x: 0.43290713, y: 0.7877724, z: 0}
+    m_Center: {x: 0.0013354719, y: 0.0005915165, z: 0}
+    m_Extent: {x: 0.42366612, y: 0.75782, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &235042613
@@ -11529,8 +11529,8 @@ MonoBehaviour:
   - {fileID: 1093165099}
   - {fileID: 1445925735}
   m_Bounds:
-    m_Center: {x: -0.1058597, y: 0.07972443, z: 0}
-    m_Extent: {x: 0.38798794, y: 0.60361135, z: 0}
+    m_Center: {x: 0.03054893, y: 0.07227945, z: 0}
+    m_Extent: {x: 0.36150438, y: 0.5745952, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &349042976
@@ -19162,8 +19162,8 @@ MonoBehaviour:
   - {fileID: 1121718120}
   - {fileID: 1016898717}
   m_Bounds:
-    m_Center: {x: 0.09537643, y: -0.50409716, z: 0}
-    m_Extent: {x: 0.66500115, y: 0.7366895, z: 0}
+    m_Center: {x: 0.095377386, y: -0.5040945, z: 0}
+    m_Extent: {x: 0.6650002, y: 0.73669016, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &677290551
@@ -22515,8 +22515,8 @@ MonoBehaviour:
   - {fileID: 1021170004}
   - {fileID: 1117617929}
   m_Bounds:
-    m_Center: {x: 0.12693852, y: 0.06455606, z: 0}
-    m_Extent: {x: 1.0021861, y: 0.66550976, z: 0}
+    m_Center: {x: 0.12693983, y: 0.06455821, z: 0}
+    m_Extent: {x: 1.0021867, y: 0.6655093, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &762463088
@@ -22819,7 +22819,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.187
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -30773,7 +30773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1067679796
 Transform:
   m_ObjectHideFlags: 0
@@ -33868,6 +33868,8 @@ GameObject:
   - component: {fileID: 1210153901}
   - component: {fileID: 1210153902}
   - component: {fileID: 1210153903}
+  - component: {fileID: 1210153905}
+  - component: {fileID: 1210153904}
   m_Layer: 0
   m_Name: Stove
   m_TagString: Untagged
@@ -34076,6 +34078,114 @@ MonoBehaviour:
   Ore2: {fileID: 21300000, guid: 43a5af5d99cab074e8cb15a3c77a7adb, type: 3}
   _DoorsRemember: {fileID: 1483589746}
   _InnerRemember: {fileID: 959617083}
+--- !u!82 &1210153904
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210153899}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1210153905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210153899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1214303311
 GameObject:
   m_ObjectHideFlags: 0
@@ -44389,7 +44499,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.683
+  m_Volume: 0.113
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -50325,8 +50435,8 @@ MonoBehaviour:
   - {fileID: 699182593}
   - {fileID: 315973842}
   m_Bounds:
-    m_Center: {x: -0.029399723, y: -0.010863543, z: 0}
-    m_Extent: {x: 0.45488945, y: 0.7596189, z: 0}
+    m_Center: {x: 0.20962805, y: 0.36239398, z: 0}
+    m_Extent: {x: 0.5076997, y: 0.55497396, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1774626221
