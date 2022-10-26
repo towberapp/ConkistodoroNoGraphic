@@ -6731,7 +6731,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 666746842}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -13229,7 +13229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _AudioSource: {fileID: 519622007}
 --- !u!1 &521785938
 GameObject:
   m_ObjectHideFlags: 0
@@ -25815,7 +25814,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 358437025}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -25829,7 +25828,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 666746842}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -30378,7 +30377,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1945062310}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -37580,7 +37579,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 666746842}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -41012,7 +41011,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1826254983}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: TimelineManager, Assembly-CSharp
           m_MethodName: AddToQueue
           m_Mode: 2
           m_Arguments:
@@ -41026,7 +41025,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2022804249}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41038,7 +41037,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 155439538}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41050,7 +41049,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
         - m_Target: {fileID: 850832814}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41064,7 +41063,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1519126591}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41076,7 +41075,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 826846692}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41088,7 +41087,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2120953900}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: LoadButton, Assembly-CSharp
           m_MethodName: LoadNextScene
           m_Mode: 3
           m_Arguments:
@@ -41100,7 +41099,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 600284850}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41114,7 +41113,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1519126591}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41126,7 +41125,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 110175062}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41138,7 +41137,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2120953900}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: LoadButton, Assembly-CSharp
           m_MethodName: LoadNextScene
           m_Mode: 3
           m_Arguments:
@@ -41150,7 +41149,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 600284850}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41164,7 +41163,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 307502568}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41176,7 +41175,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 952443069}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41188,7 +41187,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2120953900}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: LoadButton, Assembly-CSharp
           m_MethodName: LoadNextScene
           m_Mode: 3
           m_Arguments:
@@ -41200,7 +41199,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 600284850}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41368,7 +41367,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1826254983}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: TimelineManager, Assembly-CSharp
           m_MethodName: AddToQueue
           m_Mode: 2
           m_Arguments:
@@ -41382,7 +41381,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1036172636}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -41394,7 +41393,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2096767598}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -41406,7 +41405,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
         - m_Target: {fileID: 110175062}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -49478,7 +49477,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1826254982}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 611d72207a39737488cb95e9cca7d56b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: c0b857a75a60e73499c18fe2790bd022, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -60220,7 +60219,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60232,7 +60231,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60247,7 +60246,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1191690893}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -60261,7 +60260,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60273,7 +60272,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60385,7 +60384,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60397,7 +60396,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60412,7 +60411,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1036172636}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -60426,7 +60425,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60438,7 +60437,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60453,7 +60452,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 732079980}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -60467,7 +60466,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60479,7 +60478,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60494,7 +60493,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1519126591}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -60508,7 +60507,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60520,7 +60519,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60549,7 +60548,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -60561,7 +60560,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 5025880496609168730}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
           m_MethodName: SetStartSide
           m_Mode: 2
           m_Arguments:
@@ -60576,7 +60575,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 307502568}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: Play
           m_Mode: 5
           m_Arguments:
@@ -60631,7 +60630,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1720954364516455479}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: PlayerInventory, Assembly-CSharp
           m_MethodName: AddItem
           m_Mode: 2
           m_Arguments:
@@ -60644,7 +60643,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1761090810}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: State, Assembly-CSharp
           m_MethodName: set_Value
           m_Mode: 5
           m_Arguments:
@@ -60656,7 +60655,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1720954364516455466}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: CharacterMovement, Assembly-CSharp
           m_MethodName: SetToPointOnPause
           m_Mode: 2
           m_Arguments:
@@ -70313,7 +70312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3962180517762723903
 Transform:
   m_ObjectHideFlags: 0

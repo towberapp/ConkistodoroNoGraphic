@@ -3988,6 +3988,7 @@ GameObject:
   - component: {fileID: 258777989}
   - component: {fileID: 258777991}
   - component: {fileID: 258777990}
+  - component: {fileID: 258777994}
   m_Layer: 0
   m_Name: bum
   m_TagString: Untagged
@@ -4214,6 +4215,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &258777994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258777988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: idle
+  delayBeforeStart: 0
+  fromRange: 5
+  toRange: 8
+  loopCount: 0
 --- !u!1 &266205993
 GameObject:
   m_ObjectHideFlags: 0
@@ -13745,8 +13763,8 @@ MonoBehaviour:
   - {fileID: 1512711087}
   - {fileID: 109526630}
   m_Bounds:
-    m_Center: {x: 0.009174287, y: -0.0035398602, z: 0}
-    m_Extent: {x: 0.32545483, y: 0.5801396, z: 0}
+    m_Center: {x: 0.0964326, y: 0.013116121, z: 0}
+    m_Extent: {x: 0.38749036, y: 0.45577478, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &784940447
@@ -16258,7 +16276,7 @@ PlayableDirector:
   m_GameObject: {fileID: 919656080}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: ffb0b7562d80eeb47b4eb18ffa6d898b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: a3122ed69ab65184d9f2d2a9478aecb1, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -16497,6 +16515,10 @@ PlayableDirector:
   - key: {fileID: 1897889107433862413, guid: 76fb66337e58bf44d897e31096cb981c, type: 2}
     value: {fileID: 0}
   - key: {fileID: -8471758864160759392, guid: bf2b39350a205824c90ee3186269b605, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4972551010796239594, guid: ffb0b7562d80eeb47b4eb18ffa6d898b, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1920166537927285825, guid: a3122ed69ab65184d9f2d2a9478aecb1, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -17529,8 +17551,8 @@ MonoBehaviour:
   - {fileID: 1288950944}
   - {fileID: 423288557}
   m_Bounds:
-    m_Center: {x: 0.09537786, y: -0.50409555, z: 0}
-    m_Extent: {x: 0.66500026, y: 0.7366903, z: 0}
+    m_Center: {x: -0.17659807, y: -0.7102463, z: 0}
+    m_Extent: {x: 0.6477046, y: 0.81845975, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &988580115
@@ -17871,8 +17893,8 @@ MonoBehaviour:
   - {fileID: 176733566}
   - {fileID: 543129254}
   m_Bounds:
-    m_Center: {x: 0.0013355017, y: 0.00058960915, z: 0}
-    m_Extent: {x: 0.42366523, y: 0.7578195, z: 0}
+    m_Center: {x: 0.0014086366, y: -0.010010302, z: 0}
+    m_Extent: {x: 0.42366546, y: 0.76083714, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &994434963
@@ -21357,8 +21379,8 @@ MonoBehaviour:
   - {fileID: 1014172965}
   - {fileID: 1600452840}
   m_Bounds:
-    m_Center: {x: 0.12694043, y: 0.064557076, z: 0}
-    m_Extent: {x: 1.0021871, y: 0.6655103, z: 0}
+    m_Center: {x: 0.077421784, y: -0.1014421, z: 0}
+    m_Extent: {x: 0.9848727, y: 0.687042, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1274284799
@@ -24722,8 +24744,8 @@ MonoBehaviour:
   - {fileID: 414971056}
   - {fileID: 1886233447}
   m_Bounds:
-    m_Center: {x: 0.0012173355, y: 0.009204924, z: 0}
-    m_Extent: {x: 0.43781233, y: 0.75053054, z: 0}
+    m_Center: {x: 0.0032245815, y: -0.014912009, z: 0}
+    m_Extent: {x: 0.43781227, y: 0.7533139, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1474803883
@@ -28739,8 +28761,8 @@ MonoBehaviour:
   - {fileID: 1289018559}
   - {fileID: 2078213886}
   m_Bounds:
-    m_Center: {x: -0.011486262, y: 0.008913517, z: 0}
-    m_Extent: {x: 0.3247354, y: 0.61048007, z: 0}
+    m_Center: {x: -0.05564037, y: 0.10369685, z: 0}
+    m_Extent: {x: 0.3523248, y: 0.46140128, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1622850743
@@ -32068,6 +32090,9 @@ GameObject:
   - component: {fileID: 1799692280}
   - component: {fileID: 1799692279}
   - component: {fileID: 1799692281}
+  - component: {fileID: 1799692283}
+  - component: {fileID: 1799692282}
+  - component: {fileID: 1799692284}
   m_Layer: 0
   m_Name: 2 ruki i ceti
   m_TagString: Untagged
@@ -32158,6 +32183,131 @@ MonoBehaviour:
             m_StringArgument: OneHand
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1799692282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799692278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &1799692283
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799692278}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1799692284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799692278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: ruki i cepi cikl
+  delayBeforeStart: 0
+  fromRange: 5
+  toRange: 22
+  loopCount: 0
 --- !u!1 &1819473323
 GameObject:
   m_ObjectHideFlags: 0
@@ -36462,6 +36612,7 @@ GameObject:
   - component: {fileID: 2113298475}
   - component: {fileID: 2113298477}
   - component: {fileID: 2113298476}
+  - component: {fileID: 2113298478}
   m_Layer: 0
   m_Name: j Bb
   m_TagString: Untagged
@@ -36737,6 +36888,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2113298478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113298470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: Bol Juk Raduetsy zolotu
+  delayBeforeStart: 0
+  fromRange: 4
+  toRange: 22
+  loopCount: 0
 --- !u!1 &2116733647
 GameObject:
   m_ObjectHideFlags: 0

@@ -22738,6 +22738,7 @@ GameObject:
   - component: {fileID: 770513947}
   - component: {fileID: 770513950}
   - component: {fileID: 770513949}
+  - component: {fileID: 770513951}
   m_Layer: 0
   m_Name: list
   m_TagString: Untagged
@@ -22841,7 +22842,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.187
+  m_Volume: 0.72
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22937,6 +22938,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &770513951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770513945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: List Jeleza
+  delayBeforeStart: 0
+  fromRange: 3
+  toRange: 9
+  loopCount: 0
 --- !u!1 &771152796
 GameObject:
   m_ObjectHideFlags: 0
@@ -44358,6 +44376,7 @@ GameObject:
   - component: {fileID: 1544874056}
   - component: {fileID: 1544874058}
   - component: {fileID: 1544874057}
+  - component: {fileID: 1544874059}
   m_Layer: 0
   m_Name: truba Fin na scene stsrt
   m_TagString: Untagged
@@ -44727,6 +44746,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1544874059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544874052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: B Bak i par
+  delayBeforeStart: 0
+  fromRange: 4
+  toRange: 22
+  loopCount: 0
 --- !u!1 &1548582906
 GameObject:
   m_ObjectHideFlags: 0
@@ -54779,7 +54815,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925721133}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
