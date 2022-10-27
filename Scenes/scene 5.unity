@@ -22953,7 +22953,7 @@ MonoBehaviour:
   animclipString: List Jeleza
   delayBeforeStart: 0
   fromRange: 3
-  toRange: 9
+  toRange: 15
   loopCount: 0
 --- !u!1 &771152796
 GameObject:
@@ -36092,6 +36092,7 @@ GameObject:
   - component: {fileID: 1274101681}
   - component: {fileID: 1274101683}
   - component: {fileID: 1274101682}
+  - component: {fileID: 1274101684}
   m_Layer: 0
   m_Name: 'Truba A '
   m_TagString: Untagged
@@ -36227,7 +36228,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.823
+  m_Volume: 0.989
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -36323,6 +36324,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1274101684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274101677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: Truba A cikl
+  delayBeforeStart: 0
+  fromRange: 5
+  toRange: 22
+  loopCount: 0
 --- !u!1 &1274808736
 GameObject:
   m_ObjectHideFlags: 0
@@ -44761,7 +44779,7 @@ MonoBehaviour:
   animclipString: B Bak i par
   delayBeforeStart: 0
   fromRange: 4
-  toRange: 12
+  toRange: 19
   loopCount: 0
 --- !u!1 &1548582906
 GameObject:
