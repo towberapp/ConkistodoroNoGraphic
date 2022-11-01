@@ -3002,8 +3002,8 @@ MonoBehaviour:
   - {fileID: 1967167456}
   - {fileID: 215326164}
   m_Bounds:
-    m_Center: {x: 0.009174526, y: -0.0035407543, z: 0}
-    m_Extent: {x: 0.32545507, y: 0.5801395, z: 0}
+    m_Center: {x: -0.002085179, y: 0.14219275, z: 0}
+    m_Extent: {x: 0.3326815, y: 0.44953787, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &127326217
@@ -5784,8 +5784,8 @@ MonoBehaviour:
   - {fileID: 562167248}
   - {fileID: 1972537839}
   m_Bounds:
-    m_Center: {x: 0.12694025, y: 0.0645569, z: 0}
-    m_Extent: {x: 1.0021875, y: 0.6655102, z: 0}
+    m_Center: {x: 0.09359449, y: 0.06865376, z: 0}
+    m_Extent: {x: 0.99222314, y: 0.74419254, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &246997429
@@ -9883,8 +9883,8 @@ MonoBehaviour:
   - {fileID: 130654974}
   - {fileID: 666627813}
   m_Bounds:
-    m_Center: {x: -0.011485964, y: 0.008912921, z: 0}
-    m_Extent: {x: 0.3247348, y: 0.61048007, z: 0}
+    m_Center: {x: 0.1171684, y: 0.33162242, z: 0}
+    m_Extent: {x: 0.44797608, y: 0.36093384, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &477077434
@@ -12633,6 +12633,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!21 &597692875
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &604821300
 GameObject:
   m_ObjectHideFlags: 0
@@ -16959,8 +16993,8 @@ MonoBehaviour:
   - {fileID: 762194934}
   - {fileID: 1633926824}
   m_Bounds:
-    m_Center: {x: 0.09537697, y: -0.5040957, z: 0}
-    m_Extent: {x: 0.6650001, y: 0.73669016, z: 0}
+    m_Center: {x: 0.2485185, y: -0.3214355, z: 0}
+    m_Extent: {x: 0.6948858, y: 0.69900733, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &779925929
@@ -18086,8 +18120,8 @@ MonoBehaviour:
   - {fileID: 1857859908}
   - {fileID: 755772758}
   m_Bounds:
-    m_Center: {x: 0.0013357401, y: 0.0005900264, z: 0}
-    m_Extent: {x: 0.42366517, y: 0.7578193, z: 0}
+    m_Center: {x: 0.052410275, y: 0.14896059, z: 0}
+    m_Extent: {x: 0.42877662, y: 0.68853915, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &820065513
@@ -25865,8 +25899,8 @@ MonoBehaviour:
   - {fileID: 1171238705}
   - {fileID: 1219939288}
   m_Bounds:
-    m_Center: {x: 0.0012166202, y: 0.009205699, z: 0}
-    m_Extent: {x: 0.43781227, y: 0.75053036, z: 0}
+    m_Center: {x: 0.020736516, y: 0.16378766, z: 0}
+    m_Extent: {x: 0.45226818, y: 0.6534294, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1126641100
@@ -34451,7 +34485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1527135314
 Transform:
   m_ObjectHideFlags: 0
@@ -48117,7 +48151,7 @@ PlayableDirector:
   m_GameObject: {fileID: 2086208117}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 62b2b1d14f2c6e345b223d67ea61f4b7, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: ce9460b4cc5955c4d8cd4001f6c7f9b8, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -48447,40 +48481,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &2089012387
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &2097254918
 GameObject:
   m_ObjectHideFlags: 0
