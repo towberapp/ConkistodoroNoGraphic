@@ -43,6 +43,7 @@ public class InteractableObject : MonoBehaviour
 
     public virtual bool Check(Item item)
     {
+
         return item == _NecesseryItem;
     }
 

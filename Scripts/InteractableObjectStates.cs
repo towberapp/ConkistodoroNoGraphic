@@ -14,6 +14,7 @@ public class InteractableObjectStates : InteractableObject
     }
     public override bool Check(Item item)
     {
+
         (_InteractEvent, _TimelineAsset) = _Checker.GetValues(item);
         return _InteractEvent != null && _TimelineAsset;
     }
