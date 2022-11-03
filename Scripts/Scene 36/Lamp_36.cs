@@ -28,8 +28,14 @@ public class Lamp_36 : MonoBehaviour
     [SerializeField] private float _rotSpeed = 0.5f;
     [SerializeField] private float _extraSpeed = 1;
     [SerializeField] private float _maxAngle = 75;
+
     [SerializeField] private UnityEvent _finishEvent;
     [SerializeField] private UnityEvent _fallEvent;
+    [SerializeField] private UnityEvent _electricEvent;
+
+    [SerializeField] private State mechanizmState;
+
+
     private int _extraSpeedDirection = 0;
     private float _rotateDirection = -1;
     private bool IsBoard = false;
@@ -157,7 +163,17 @@ public class Lamp_36 : MonoBehaviour
     public void Finish(float duration)
     {
         StopUp();
-        StartCoroutine(RotateTo(0, duration, () => _finishEvent.Invoke()));
+
+        if (mechanizmState.Value == "Normal")
+        {
+            // good job
+            StartCoroutine(RotateTo(0, duration, () => _finishEvent.Invoke()));
+
+        } else
+        {            
+            StartCoroutine(RotateTo(0, duration, () => _electricEvent.Invoke()));
+        }
+        
     }
 
     private IEnumerator RotateTo(float target, float duration, Action endAction)
@@ -180,21 +196,28 @@ public class Lamp_36 : MonoBehaviour
 
     private IEnumerator Up()
     {
+        Debug.Log("Mehanizm STATEL: " + mechanizmState.Value);
+
         rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
         rigidbody.gravityScale = _gravityScale;
         rigidbody.velocity = new Vector2(0, 0);
+        
         _pers.gameObject.SetActive(true);
+
         distanceJoint.enabled = false;
         _ButtonL.Play("Appear");
         _ButtonR.Play("Appear");
+
+
         while (true)
         {
             rigidbody.AddForce(Vector3.up * UnityEngine.Random.Range(_minForce, _maxForce), ForceMode2D.Force);
             if (_lightCircle.eulerAngles.z > 360 - _maxAngle && _rotateDirection > 0 || _lightCircle.eulerAngles.z < 360 - _maxAngle && _rotateDirection < 0)
                 _rotateDirection *= -1;
             _lightCircle.eulerAngles += Vector3.forward * (_rotateDirection * _rotSpeed + _extraSpeed * _extraSpeedDirection);
+
             if (Mathf.Abs(_lightCircle.eulerAngles.z) > _maxAngle && _lightCircle.eulerAngles.z < 360 - _maxAngle)
-            {
+            {                
                 rigidbody.gravityScale = 0;
                 rigidbody.velocity *= 0;
                 _fallEvent.Invoke();
