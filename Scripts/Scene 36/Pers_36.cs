@@ -15,10 +15,19 @@ public class Pers_36 : AnimatorObject
     private int Direction = 0;
     private bool _isFalling = false;
 
+    private void Awake()
+    {
+        _startPos = transform.localPosition;        
+    }
+
+    private void OnEnable()
+    {
+        transform.localPosition = Vector3.zero;
+    }
+
     private void Start()
     {
-        _IKManagers = GetComponentsInChildren<UnityEngine.U2D.IK.IKManager2D>();
-        _startPos = transform.localPosition;
+        _IKManagers = GetComponentsInChildren<UnityEngine.U2D.IK.IKManager2D>();        
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -33,7 +42,9 @@ public class Pers_36 : AnimatorObject
     public void FixedUpdate()
     {
         if (!_isFalling)
+        {
             transform.localPosition = _startPos;
+        }
     }
 
     public void Fall()
@@ -47,10 +58,17 @@ public class Pers_36 : AnimatorObject
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<FlyFinish_36>() is var finish && finish)
+        {
             _finishEvent.Invoke();
-        else if (collision.GetComponent<Ground>() is var ground && ground)
+        }
+
+       else if (collision.GetComponent<Ground>() is var ground && ground)
+        {
             _groundEvent.Invoke();
+        }
+            
     }
+
 
     public void TurnRight() => animator.SetInteger(nameof(Direction), Direction = 1);
     public void StopTurning() => animator.SetInteger(nameof(Direction), Direction = 0);
