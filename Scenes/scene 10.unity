@@ -25908,6 +25908,7 @@ GameObject:
   - component: {fileID: 1697288669}
   - component: {fileID: 1697288671}
   - component: {fileID: 1697288670}
+  - component: {fileID: 1697288672}
   m_Layer: 0
   m_Name: JUK
   m_TagString: Untagged
@@ -25979,7 +25980,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.721
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -26075,6 +26076,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1697288672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697288666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: JUK cikl ojidaniy
+  delayBeforeStart: 0
+  fromRange: 8
+  toRange: 22
+  loopCount: 0
 --- !u!1 &1699888078
 GameObject:
   m_ObjectHideFlags: 0
@@ -26838,7 +26856,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.902
+  m_Volume: 0.581
   m_Pitch: 1
   Loop: 0
   Mute: 0
