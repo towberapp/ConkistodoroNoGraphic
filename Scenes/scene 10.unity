@@ -21458,6 +21458,7 @@ GameObject:
   - component: {fileID: 1382740369}
   - component: {fileID: 1382740371}
   - component: {fileID: 1382740370}
+  - component: {fileID: 1382740372}
   m_Layer: 0
   m_Name: fon 10
   m_TagString: Untagged
@@ -21719,6 +21720,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1382740372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382740365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: truba Bak pih pih
+  delayBeforeStart: 3
+  fromRange: 15
+  toRange: 0
+  loopCount: 0
 --- !u!1 &1387405240
 GameObject:
   m_ObjectHideFlags: 0
@@ -32802,6 +32820,7 @@ GameObject:
   - component: {fileID: 2137627993}
   - component: {fileID: 2137627996}
   - component: {fileID: 2137627995}
+  - component: {fileID: 2137627997}
   m_Layer: 0
   m_Name: Bak2
   m_TagString: Untagged
@@ -32952,6 +32971,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2137627997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137627992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animclipString: Bak2
+  delayBeforeStart: 0
+  fromRange: 3
+  toRange: 22
+  loopCount: 0
 --- !u!1 &2140628201
 GameObject:
   m_ObjectHideFlags: 0
