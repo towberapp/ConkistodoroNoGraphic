@@ -6,6 +6,7 @@ public class TesterDebug : MonoBehaviour
 {
     public void StringDebug(string text)
     {
-        Debug.Log(text);
+        string name = gameObject.name;
+        Debug.LogFormat("{0} -> {1}", name, text);
     }
 }

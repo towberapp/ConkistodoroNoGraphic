@@ -23,6 +23,13 @@ public class LoadButton : MonoBehaviour
 
     public void LoadNextScene(int i)
     {
+        //_SceneManipulator.LoadFromScene(i);
+        StartCoroutine(LoadScene(i));
+    }
+
+    IEnumerator LoadScene(int i)
+    {
+        yield return new WaitForSeconds(1.0f);
         _SceneManipulator.LoadFromScene(i);
     }
 }
