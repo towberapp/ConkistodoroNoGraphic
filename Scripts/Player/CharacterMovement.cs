@@ -222,10 +222,12 @@ public class CharacterMovement : MonoBehaviour
     }
     public void MoveWrong(Path path)
     {
+        Debug.Log("MOVE WRING: " + _AnimController);
+
         if (_Moving != null)
             StopCoroutine(_Moving);
         if (!_IsTeleporting && path != null)
-        {
+        {            
             SetPath(path);
             _Moving = StartCoroutine(Moving(() => _AnimController.WrongAction()));
         }

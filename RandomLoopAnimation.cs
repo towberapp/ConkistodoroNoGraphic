@@ -49,9 +49,9 @@ public class RandomLoopAnimation : MonoBehaviour
 
             float length = animator.GetCurrentAnimatorStateInfo(0).length;
             string name = animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
-
+/*
             Debug.Log("length: " + length);
-            Debug.Log("name: " + name);
+            Debug.Log("name: " + name);*/
 
             if (length == 1) StopCoroutine(courutine);                        
             yield return new WaitForSeconds(length);
