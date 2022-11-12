@@ -2961,8 +2961,8 @@ MonoBehaviour:
   - {fileID: 1758864216}
   - {fileID: 534133942}
   m_Bounds:
-    m_Center: {x: 0.26301247, y: -0.44851577, z: 0}
-    m_Extent: {x: 0.58307326, y: 0.67100275, z: 0}
+    m_Center: {x: 0.19922376, y: -0.5411687, z: 0}
+    m_Extent: {x: 0.5399687, y: 0.72193027, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &215592187
@@ -6263,8 +6263,8 @@ MonoBehaviour:
   - {fileID: 273200710}
   - {fileID: 1718454395}
   m_Bounds:
-    m_Center: {x: 0.0035417378, y: -0.43782067, z: 0}
-    m_Extent: {x: 0.45251426, y: 0.62949324, z: 0}
+    m_Center: {x: 0.05932972, y: -0.2861873, z: 0}
+    m_Extent: {x: 0.4444422, y: 0.6005285, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &448424835
@@ -7392,8 +7392,8 @@ MonoBehaviour:
   - {fileID: 1506152720}
   - {fileID: 88760605}
   m_Bounds:
-    m_Center: {x: 0.0099096, y: -0.45300192, z: 0}
-    m_Extent: {x: 0.45635056, y: 0.6946853, z: 0}
+    m_Center: {x: 0.05294004, y: -0.29446697, z: 0}
+    m_Extent: {x: 0.45926315, y: 0.67258704, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &544914108
@@ -11808,8 +11808,8 @@ MonoBehaviour:
   - {fileID: 1491661821}
   - {fileID: 2039600616}
   m_Bounds:
-    m_Center: {x: -0.023606777, y: -0.2780029, z: 0}
-    m_Extent: {x: 0.99673355, y: 0.4191397, z: 0}
+    m_Center: {x: 0.03444904, y: -0.34133357, z: 0}
+    m_Extent: {x: 0.99027854, y: 0.46523374, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &842405055
@@ -13967,8 +13967,8 @@ MonoBehaviour:
   - {fileID: 1788852539}
   - {fileID: 1141425615}
   m_Bounds:
-    m_Center: {x: 0.01486975, y: -0.45606327, z: 0}
-    m_Extent: {x: 0.32397524, y: 0.5944494, z: 0}
+    m_Center: {x: -0.077606946, y: -0.3218288, z: 0}
+    m_Extent: {x: 0.34198144, y: 0.49952206, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &944310390
@@ -21733,10 +21733,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -21843,9 +21843,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animclipString: truba Bak pih pih
-  delayBeforeStart: 3
-  fromRange: 15
-  toRange: 0
+  delayBeforeStart: 0
+  fromRange: 3
+  toRange: 8
   loopCount: 0
 --- !u!1 &1387405240
 GameObject:
@@ -25938,8 +25938,8 @@ MonoBehaviour:
   - {fileID: 1309166803}
   - {fileID: 1243850676}
   m_Bounds:
-    m_Center: {x: -0.030007929, y: -0.4265344, z: 0}
-    m_Extent: {x: 0.31815034, y: 0.5856918, z: 0}
+    m_Center: {x: -0.11396465, y: -0.3270371, z: 0}
+    m_Extent: {x: 0.37093624, y: 0.5193778, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1695730733
@@ -26200,8 +26200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animclipString: JUK cikl ojidaniy
   delayBeforeStart: 0
-  fromRange: 8
-  toRange: 22
+  fromRange: 23
+  toRange: 30
   loopCount: 0
 --- !u!1 &1699888078
 GameObject:
@@ -27548,7 +27548,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1786419841}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 6035ec5f9498dac4793d149219a162f5, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 71ea1127848baad4cbda16d9f530b614, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -27789,6 +27789,8 @@ PlayableDirector:
   - key: {fileID: 143286057498704209, guid: 58fe37b058a6efe488a5fe9c81809060, type: 2}
     value: {fileID: 0}
   - key: {fileID: -2120081923742661834, guid: 6035ec5f9498dac4793d149219a162f5, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7258742127538261485, guid: 83fc24a3b4ff66a43bea502a54a41d0a, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -33228,10 +33230,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.549
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
