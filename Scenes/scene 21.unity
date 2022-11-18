@@ -6352,7 +6352,7 @@ GameObject:
   - component: {fileID: 301281859}
   - component: {fileID: 301281862}
   - component: {fileID: 301281861}
-  - component: {fileID: 301281860}
+  - component: {fileID: 301281863}
   m_Layer: 0
   m_Name: Lampaq a
   m_TagString: Untagged
@@ -6394,23 +6394,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &301281860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301281857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f4dbb5591525534bbd8fd878ed669ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animclipString: lampa anim LOM
-  delayBeforeStart: 0
-  fromRange: 4
-  toRange: 12
-  loopCount: 0
 --- !u!82 &301281861
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6418,7 +6401,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301281857}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -6519,6 +6502,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &301281863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301281857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50724b68cd8a3954da71317f3aa7cc97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Fedor
+  delayBeforeStart: 0
+  fromRange: 10
+  toRange: 33
+  loopCount: 0
 --- !u!1 &302621561
 GameObject:
   m_ObjectHideFlags: 0
