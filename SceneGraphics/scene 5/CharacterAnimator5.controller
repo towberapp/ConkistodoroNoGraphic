@@ -398,6 +398,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c30d4f343c346e4d802ea35cbbb9641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1102 &-4391886685358369426
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 5  3- 4 Pravo  lepim hlang k liftu B2 Prodoljenie
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 10de7664d9dc1c948a57d11f5c01e8ce, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-4308946305657923574
 AnimatorState:
   serializedVersion: 6
@@ -741,6 +767,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-2254743042871161505
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 5  3- 4 Pravo  lepim hlang k liftu B2 Fin
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f3ce5519e175b12449d9d358a99e8b66, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-1571623937492607881
 AnimatorState:
   serializedVersion: 6
@@ -931,6 +983,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c30d4f343c346e4d802ea35cbbb9641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1102 &249367989426911859
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 5  3- 4 Pravo  lepim hlang k liftu B2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f191ed75c8ecaa549a0c6f7fcb8cfd4e, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &303568172287465914
 AnimatorState:
   serializedVersion: 6
@@ -1640,6 +1718,18 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -9199120048324947418}
     m_Position: {x: -992.4216, y: 1201.0343, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5057003018391606325}
+    m_Position: {x: -930.8513, y: 1632.3595, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -2254743042871161505}
+    m_Position: {x: -920.8513, y: 1642.3595, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4391886685358369426}
+    m_Position: {x: -910.8513, y: 1652.3595, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 249367989426911859}
+    m_Position: {x: -900.8513, y: 1662.3595, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -1709,6 +1799,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 530127c32669adc4d9f80044134f59fe, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &5057003018391606325
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: scen 5  3- 4 Pravo  lepim hlang k liftu
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 1e6a378a5fa88ef42a0cb0af0eb082f4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
