@@ -6368,7 +6368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301281857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.31, y: 13.45, z: 0}
+  m_LocalPosition: {x: -19.23, y: 13.6, z: 0}
   m_LocalScale: {x: 0.96339494, y: 0.96339494, z: 0.96339494}
   m_Children:
   - {fileID: 1887687365}
@@ -6406,7 +6406,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.768
+  m_Volume: 0.529
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6517,7 +6517,7 @@ MonoBehaviour:
   triggerName: Fedor
   delayBeforeStart: 0
   fromRange: 10
-  toRange: 33
+  toRange: 49
   loopCount: 0
 --- !u!1 &302621561
 GameObject:
@@ -9967,6 +9967,7 @@ GameObject:
   - component: {fileID: 473865060}
   - component: {fileID: 473865062}
   - component: {fileID: 473865061}
+  - component: {fileID: 473865063}
   m_Layer: 0
   m_Name: BAK
   m_TagString: Untagged
@@ -10066,7 +10067,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.461
+  m_Volume: 0.715
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10162,6 +10163,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &473865063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473865056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50724b68cd8a3954da71317f3aa7cc97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Fedor 2
+  delayBeforeStart: 0
+  fromRange: 6
+  toRange: 15
+  loopCount: 0
 --- !u!1 &478384634
 GameObject:
   m_ObjectHideFlags: 0

@@ -5296,7 +5296,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bak
+    path: bak/levutacia2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5306,17 +5306,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bak
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: bak
+    path: bak/levutacia2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5335,8 +5325,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: bak
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: bak/levutacia2
+    path: bak
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5346,7 +5346,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: bak/levutacia2
+    path: bak
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
@@ -5355,7 +5355,7 @@ AnimationClip:
   - time: 0
     functionName: Play
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 3f87b0c445f225b4a9892ef40d8f00ee,
+    objectReferenceParameter: {fileID: 8300000, guid: ef648f22858c668478f147910612414d,
       type: 3}
     floatParameter: 0
     intParameter: 0
