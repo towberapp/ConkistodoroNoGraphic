@@ -679,7 +679,7 @@ RectTransform:
   - {fileID: 1306893847}
   - {fileID: 367561322}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1123,6 +1123,8 @@ MonoBehaviour:
   - {fileID: 835736228}
   - {fileID: 980782626}
   - {fileID: 1409019119}
+  - {fileID: 639187219}
+  - {fileID: 1291056306}
   targetScale: 1
 --- !u!114 &36776570
 MonoBehaviour:
@@ -1901,7 +1903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &52575354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,7 +1943,7 @@ PlayableDirector:
   m_GameObject: {fileID: 52575353}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 8178d6883a6482946b9f020336cdcb51, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 3bcec7425ec1756429d690a663152a58, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -4001,7 +4003,7 @@ Transform:
   - {fileID: 528921058}
   - {fileID: 1562568649}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101427079
 GameObject:
@@ -5331,7 +5333,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132804031}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b8c5e893816363342996c723af74e97b, type: 2}
   m_CullingMode: 0
@@ -5579,8 +5581,8 @@ MonoBehaviour:
   - {fileID: 1856433776}
   - {fileID: 1759601947}
   m_Bounds:
-    m_Center: {x: 0.009175032, y: -0.0035395026, z: 0}
-    m_Extent: {x: 0.32545504, y: 0.5801389, z: 0}
+    m_Center: {x: 0.009176016, y: -0.0035390854, z: 0}
+    m_Extent: {x: 0.32545483, y: 0.58013934, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &143883653
@@ -8466,8 +8468,8 @@ MonoBehaviour:
   - {fileID: 375019183}
   - {fileID: 59454439}
   m_Bounds:
-    m_Center: {x: 0.0013354719, y: 0.00059109926, z: 0}
-    m_Extent: {x: 0.42366612, y: 0.75781906, z: 0}
+    m_Center: {x: 0.0013357103, y: 0.00059074163, z: 0}
+    m_Extent: {x: 0.42366493, y: 0.75781935, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &235042613
@@ -11554,8 +11556,8 @@ MonoBehaviour:
   - {fileID: 1093165099}
   - {fileID: 1445925735}
   m_Bounds:
-    m_Center: {x: -0.011485308, y: 0.008913875, z: 0}
-    m_Extent: {x: 0.32473487, y: 0.61047924, z: 0}
+    m_Center: {x: -0.011486262, y: 0.008914351, z: 0}
+    m_Extent: {x: 0.32473534, y: 0.61048067, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &349042976
@@ -12361,8 +12363,8 @@ MonoBehaviour:
   - {fileID: 1542578905}
   - {fileID: 2026198556}
   m_Bounds:
-    m_Center: {x: 0.041721106, y: 0.037355483, z: 0}
-    m_Extent: {x: 0.95406127, y: 0.6947781, z: 0}
+    m_Center: {x: 0.041721106, y: 0.037354708, z: 0}
+    m_Extent: {x: 0.9540612, y: 0.6947787, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &373874143
@@ -18062,6 +18064,8 @@ MonoBehaviour:
   - {fileID: 1291056306}
   - {fileID: 678443126}
   - {fileID: 1078385791}
+  - {fileID: 36776569}
+  - {fileID: 2072851878}
   targetScale: 1
 --- !u!4 &639187220
 Transform:
@@ -19077,7 +19081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09e9d0b6ec356745a2a0722283e2f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _LastScene: 10
+  _LastScene: 4
   _CurrentScene: 0
   _NextScene: 0
 --- !u!4 &671083650
@@ -19092,7 +19096,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &672052534
 GameObject:
@@ -19195,8 +19199,8 @@ MonoBehaviour:
   - {fileID: 1672900284}
   - {fileID: 1138199915}
   m_Bounds:
-    m_Center: {x: 0.055723757, y: 1.0156764, z: 0}
-    m_Extent: {x: 0.28682885, y: 0.53096306, z: 0}
+    m_Center: {x: 0.055722803, y: 1.0156753, z: 0}
+    m_Extent: {x: 0.28682882, y: 0.5309628, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &675027892
@@ -19321,8 +19325,8 @@ MonoBehaviour:
   - {fileID: 1121718120}
   - {fileID: 1016898717}
   m_Bounds:
-    m_Center: {x: 0.095377386, y: -0.50409544, z: 0}
-    m_Extent: {x: 0.6650002, y: 0.7366892, z: 0}
+    m_Center: {x: 0.09537673, y: -0.5040947, z: 0}
+    m_Extent: {x: 0.66499996, y: 0.7366904, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &677290551
@@ -20205,9 +20209,9 @@ MonoBehaviour:
   _ObjectName: Left Lift
   _CurrentState: 
   _States:
-  - 
-  - Player
   - Magnitized
+  - Player
+  - 
   _Events:
   - m_PersistentCalls:
       m_Calls:
@@ -22725,8 +22729,8 @@ MonoBehaviour:
   - {fileID: 1021170004}
   - {fileID: 1117617929}
   m_Bounds:
-    m_Center: {x: 0.12693983, y: 0.064557135, z: 0}
-    m_Extent: {x: 1.0021867, y: 0.6655092, z: 0}
+    m_Center: {x: 0.1269399, y: 0.06455815, z: 0}
+    m_Extent: {x: 1.0021867, y: 0.6655096, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &762463088
@@ -23158,8 +23162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerName: random
   delayBeforeStart: 0
-  fromRange: 15
-  toRange: 15
+  fromRange: 8
+  toRange: 10
   loopCount: 0
 --- !u!1 &771152796
 GameObject:
@@ -23723,7 +23727,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804434714
 GameObject:
@@ -23898,6 +23902,8 @@ Transform:
   - {fileID: 1543749635}
   - {fileID: 826881768}
   - {fileID: 154195355}
+  - {fileID: 1150659894}
+  - {fileID: 1998842402}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24218,7 +24224,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819377779
 GameObject:
@@ -25554,7 +25560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &855152840
 Transform:
   m_ObjectHideFlags: 0
@@ -25822,8 +25828,8 @@ MonoBehaviour:
   - {fileID: 1345625674}
   - {fileID: 1109624871}
   m_Bounds:
-    m_Center: {x: -0.26239127, y: -0.056598485, z: 0}
-    m_Extent: {x: 0.7440544, y: 0.81163156, z: 0}
+    m_Center: {x: -0.26239032, y: -0.056599557, z: 0}
+    m_Extent: {x: 0.7440544, y: 0.81163174, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &864398491
@@ -32863,8 +32869,8 @@ Transform:
   m_LocalPosition: {x: 8.861389, y: -5.586884, z: -1.4356251}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 809577273}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1153619285
 GameObject:
@@ -35825,7 +35831,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1258100935
 GameObject:
@@ -36087,8 +36093,8 @@ MonoBehaviour:
   - {fileID: 1988986077}
   - {fileID: 981541755}
   m_Bounds:
-    m_Center: {x: 0.006953925, y: -0.022875845, z: 0}
-    m_Extent: {x: 0.40651113, y: 0.6670978, z: 0}
+    m_Center: {x: -0.015211135, y: -0.0024880767, z: 0}
+    m_Extent: {x: 0.40790942, y: 0.6472404, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1263284099
@@ -36843,7 +36849,7 @@ Transform:
   - {fileID: 1821073373}
   - {fileID: 1427267660}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1274808739
 MonoBehaviour:
@@ -37229,6 +37235,9 @@ MonoBehaviour:
   - {fileID: 639187219}
   - {fileID: 1078385791}
   - {fileID: 678443126}
+  - {fileID: 36776569}
+  - {fileID: 2072851878}
+  - {fileID: 1409019119}
   targetScale: 1
 --- !u!114 &1291056307
 MonoBehaviour:
@@ -41650,6 +41659,7 @@ MonoBehaviour:
   - {fileID: 980782626}
   - {fileID: 1409019119}
   - {fileID: 1351590235}
+  - {fileID: 1291056306}
   targetScale: 1
 --- !u!114 &1409019120
 MonoBehaviour:
@@ -45982,6 +45992,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1564835253}
   - component: {fileID: 1564835254}
+  - component: {fileID: 1564835256}
+  - component: {fileID: 1564835255}
   m_Layer: 0
   m_Name: DoorState
   m_TagString: Untagged
@@ -46016,6 +46028,74 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Value: Closed
+--- !u!114 &1564835255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564835252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380bca82816876547a636c07ab0917e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1564835256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564835252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d588d0194c589874499e164e831ea48a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _StatesForCheck:
+  - {fileID: 1564835254}
+  _TargetValues:
+  - 'Closed
+
+    none'
+  - 'Opened
+
+    none'
+  _TargetEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1210153904}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_volume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1210153904}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_volume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _Clips:
+  - {fileID: 0}
+  - {fileID: 0}
+  _Items:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1566067192
 GameObject:
   m_ObjectHideFlags: 0
@@ -47060,7 +47140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609001710
 GameObject:
@@ -51320,8 +51400,8 @@ MonoBehaviour:
   - {fileID: 699182593}
   - {fileID: 315973842}
   m_Bounds:
-    m_Center: {x: 0.0012178123, y: 0.009206831, z: 0}
-    m_Extent: {x: 0.43781134, y: 0.7505305, z: 0}
+    m_Center: {x: 0.0012168288, y: 0.009206414, z: 0}
+    m_Extent: {x: 0.43781227, y: 0.7505305, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1774626221
@@ -52781,7 +52861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1836817623
 Transform:
   m_ObjectHideFlags: 0
@@ -54961,8 +55041,8 @@ MonoBehaviour:
   - {fileID: 1307403256}
   - {fileID: 1649578414}
   m_Bounds:
-    m_Center: {x: -0.059352607, y: 0.0023255944, z: 0}
-    m_Extent: {x: 0.40140045, y: 0.6348409, z: 0}
+    m_Center: {x: -0.059352577, y: 0.0023246408, z: 0}
+    m_Extent: {x: 0.4013995, y: 0.6348407, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1900516205
@@ -56087,7 +56167,7 @@ Transform:
   m_Children:
   - {fileID: 435596383}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1943075193
 GameObject:
@@ -57002,8 +57082,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_Father: {fileID: 809577273}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2003759689
 GameObject:
@@ -58726,7 +58806,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047785116
 GameObject:
@@ -59644,6 +59724,8 @@ MonoBehaviour:
   - {fileID: 835736228}
   - {fileID: 980782626}
   - {fileID: 1409019119}
+  - {fileID: 639187219}
+  - {fileID: 1291056306}
   targetScale: 1
 --- !u!114 &2072851879
 MonoBehaviour:
@@ -60390,8 +60472,8 @@ MonoBehaviour:
   - {fileID: 408252572}
   - {fileID: 2052546455}
   m_Bounds:
-    m_Center: {x: 0.030154258, y: -0.042373657, z: 0}
-    m_Extent: {x: 0.33515877, y: 0.5509909, z: 0}
+    m_Center: {x: 0.029760659, y: -0.042471528, z: 0}
+    m_Extent: {x: 0.33477682, y: 0.55109835, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2083701149
@@ -63138,7 +63220,7 @@ GameObject:
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &5866096095799327459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63568,7 +63650,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1067679795}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -63580,7 +63662,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
         - m_Target: {fileID: 1853948051}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: ObjectProgressManager, Assembly-CSharp
           m_MethodName: SetState
           m_Mode: 5
           m_Arguments:
@@ -63592,7 +63674,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
         - m_Target: {fileID: 5866096095799327486}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: PlayerInventory, Assembly-CSharp
           m_MethodName: RemoveItem
           m_Mode: 2
           m_Arguments:
@@ -79289,7 +79371,7 @@ Transform:
   - {fileID: 8103945511907156350}
   - {fileID: 2835333408645026168}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8103945512823922425
 GameObject:
