@@ -2253,8 +2253,8 @@ MonoBehaviour:
   - {fileID: 1423499039}
   - {fileID: 891703345}
   m_Bounds:
-    m_Center: {x: 0.009162575, y: -0.0037173629, z: 0}
-    m_Extent: {x: 0.32546532, y: 0.58029896, z: 0}
+    m_Center: {x: 0.009165794, y: -0.003543973, z: 0}
+    m_Extent: {x: 0.3254641, y: 0.58013546, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &170503034
@@ -11692,8 +11692,8 @@ MonoBehaviour:
   - {fileID: 2063104152}
   - {fileID: 2015997702}
   m_Bounds:
-    m_Center: {x: 0.0012185276, y: 0.009206176, z: 0}
-    m_Extent: {x: 0.43781304, y: 0.7505308, z: 0}
+    m_Center: {x: 0.0012178123, y: 0.009206116, z: 0}
+    m_Extent: {x: 0.4378128, y: 0.7505301, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &444238286
@@ -12523,6 +12523,40 @@ Transform:
   m_Father: {fileID: 987990322}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &545193680
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &547246027
 GameObject:
   m_ObjectHideFlags: 0
@@ -13085,8 +13119,8 @@ MonoBehaviour:
   - {fileID: 1995702529}
   - {fileID: 235304689}
   m_Bounds:
-    m_Center: {x: -0.011705846, y: 0.008643925, z: 0}
-    m_Extent: {x: 0.32444876, y: 0.6107095, z: 0}
+    m_Center: {x: -0.011486024, y: 0.00891453, z: 0}
+    m_Extent: {x: 0.3247351, y: 0.61048, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &586270866
@@ -26636,8 +26670,8 @@ MonoBehaviour:
   - {fileID: 333118932}
   - {fileID: 1333852843}
   m_Bounds:
-    m_Center: {x: 0.0013361871, y: 0.0005904436, z: 0}
-    m_Extent: {x: 0.4236659, y: 0.7578195, z: 0}
+    m_Center: {x: 0.0013359487, y: 0.00059074163, z: 0}
+    m_Extent: {x: 0.42366615, y: 0.7578188, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &915326691
@@ -28979,8 +29013,8 @@ MonoBehaviour:
   - {fileID: 1529252668}
   - {fileID: 400925528}
   m_Bounds:
-    m_Center: {x: -0.2777772, y: 0.5934414, z: 0}
-    m_Extent: {x: 0.92536366, y: 0.673351, z: 0}
+    m_Center: {x: -0.2777772, y: 0.5934419, z: 0}
+    m_Extent: {x: 0.92536366, y: 0.6733505, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1041576882
@@ -29105,8 +29139,8 @@ MonoBehaviour:
   - {fileID: 263569326}
   - {fileID: 1372942496}
   m_Bounds:
-    m_Center: {x: 0.095377326, y: -0.5040946, z: 0}
-    m_Extent: {x: 0.6650002, y: 0.7366903, z: 0}
+    m_Center: {x: 0.095377386, y: -0.5040946, z: 0}
+    m_Extent: {x: 0.66500026, y: 0.73669124, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1041606156
@@ -32269,7 +32303,7 @@ MonoBehaviour:
   - {fileID: 259841250}
   - {fileID: 532132571}
   m_Bounds:
-    m_Center: {x: 0.12693942, y: 0.06455809, z: 0}
+    m_Center: {x: 0.12694037, y: 0.064557254, z: 0}
     m_Extent: {x: 1.0021875, y: 0.6655103, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -32954,40 +32988,6 @@ Transform:
   m_Father: {fileID: 1881599817}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1340015911
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1346096302
 GameObject:
   m_ObjectHideFlags: 0
@@ -38704,7 +38704,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1780806381}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 3407b62e211de33418f5161ec45322cf, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 477bfcfdfd714c146a0e274095b2cf8c, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -56049,8 +56049,8 @@ MonoBehaviour:
   - {fileID: 682736063181294557}
   - {fileID: 682736065128825080}
   m_Bounds:
-    m_Center: {x: 0.009910136, y: -0.45300245, z: 0}
-    m_Extent: {x: 0.45635074, y: 0.69468486, z: 0}
+    m_Center: {x: 0.009908944, y: -0.4530024, z: 0}
+    m_Extent: {x: 0.45635104, y: 0.69468457, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &682736063785641931
@@ -59173,8 +59173,8 @@ MonoBehaviour:
   - {fileID: 682736063913700311}
   - {fileID: 682736064122037810}
   m_Bounds:
-    m_Center: {x: 0.0147352815, y: -0.45587564, z: 0}
-    m_Extent: {x: 0.32396644, y: 0.5942427, z: 0}
+    m_Center: {x: 0.014870048, y: -0.45606333, z: 0}
+    m_Extent: {x: 0.32397538, y: 0.5944502, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &682736064272253481
@@ -60468,8 +60468,8 @@ MonoBehaviour:
   - {fileID: 682736063200874582}
   - {fileID: 682736063387486716}
   m_Bounds:
-    m_Center: {x: -0.023607314, y: -0.27800414, z: 0}
-    m_Extent: {x: 0.99673337, y: 0.41914, z: 0}
+    m_Center: {x: -0.023607612, y: -0.27800247, z: 0}
+    m_Extent: {x: 0.9967338, y: 0.41913977, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &682736064433714799
@@ -60679,8 +60679,8 @@ MonoBehaviour:
   - {fileID: 682736064207250762}
   - {fileID: 682736064264397081}
   m_Bounds:
-    m_Center: {x: -0.03000626, y: -0.4265346, z: 0}
-    m_Extent: {x: 0.31814975, y: 0.585692, z: 0}
+    m_Center: {x: -0.030007869, y: -0.4265344, z: 0}
+    m_Extent: {x: 0.3181491, y: 0.5856923, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &682736064499563225
@@ -61470,8 +61470,8 @@ MonoBehaviour:
   - {fileID: 682736063140250545}
   - {fileID: 682736064749592128}
   m_Bounds:
-    m_Center: {x: 0.2630135, y: -0.44851625, z: 0}
-    m_Extent: {x: 0.58307326, y: 0.6710017, z: 0}
+    m_Center: {x: 0.26301327, y: -0.44851583, z: 0}
+    m_Extent: {x: 0.5830726, y: 0.67100173, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &682736064571533977
@@ -63794,8 +63794,8 @@ MonoBehaviour:
   - {fileID: 682736063796238078}
   - {fileID: 682736063159572590}
   m_Bounds:
-    m_Center: {x: 0.0035424232, y: -0.4378224, z: 0}
-    m_Extent: {x: 0.4525147, y: 0.6294928, z: 0}
+    m_Center: {x: 0.0035428405, y: -0.43782127, z: 0}
+    m_Extent: {x: 0.45251334, y: 0.62949324, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &682736064939556565
