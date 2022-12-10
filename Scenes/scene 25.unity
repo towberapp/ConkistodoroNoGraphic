@@ -551,8 +551,8 @@ MonoBehaviour:
   - {fileID: 1285607754}
   - {fileID: 1555404023}
   m_Bounds:
-    m_Center: {x: -0.003886938, y: -0.48046994, z: 0}
-    m_Extent: {x: 0.42253917, y: 0.6791655, z: 0}
+    m_Center: {x: -0.0038866997, y: -0.48046982, z: 0}
+    m_Extent: {x: 0.4225394, y: 0.679165, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &27909599
@@ -4403,8 +4403,8 @@ MonoBehaviour:
   - {fileID: 1061270843}
   - {fileID: 1951694732}
   m_Bounds:
-    m_Center: {x: 0.006126642, y: -0.45372796, z: 0}
-    m_Extent: {x: 0.46013713, y: 0.69395995, z: 0}
+    m_Center: {x: 0.006121874, y: -0.4537276, z: 0}
+    m_Extent: {x: 0.46013808, y: 0.6939603, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &264558141
@@ -4948,8 +4948,8 @@ MonoBehaviour:
   - {fileID: 1421220742}
   - {fileID: 1419223340}
   m_Bounds:
-    m_Center: {x: -0.020304263, y: -0.277992, z: 0}
-    m_Extent: {x: 0.99663216, y: 0.41912884, z: 0}
+    m_Center: {x: -0.020306885, y: -0.27799273, z: 0}
+    m_Extent: {x: 0.99663097, y: 0.41912907, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &285189528
@@ -7413,7 +7413,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.58
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7715,6 +7715,7 @@ GameObject:
   - component: {fileID: 402187311}
   - component: {fileID: 402187313}
   - component: {fileID: 402187312}
+  - component: {fileID: 402187314}
   m_Layer: 0
   m_Name: Bum_2
   m_TagString: Untagged
@@ -7841,7 +7842,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7937,6 +7938,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &402187314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402187307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50724b68cd8a3954da71317f3aa7cc97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: fedor N5
+  delayBeforeStart: 0
+  fromRange: 10
+  toRange: 40
+  loopCount: 0
 --- !u!1 &405372303
 GameObject:
   m_ObjectHideFlags: 0
@@ -9163,8 +9181,8 @@ MonoBehaviour:
   - {fileID: 1808173476}
   - {fileID: 181673869}
   m_Bounds:
-    m_Center: {x: -0.009561777, y: -0.4357745, z: 0}
-    m_Extent: {x: 0.46562034, y: 0.63154083, z: 0}
+    m_Center: {x: -0.009564638, y: -0.43577403, z: 0}
+    m_Extent: {x: 0.4656194, y: 0.6315413, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &432541262
@@ -10699,8 +10717,8 @@ MonoBehaviour:
   - {fileID: 44910639}
   - {fileID: 505327746}
   m_Bounds:
-    m_Center: {x: 0.13393933, y: -0.49002016, z: 0}
-    m_Extent: {x: 0.66663504, y: 0.7319665, z: 0}
+    m_Center: {x: 0.09537631, y: -0.5040948, z: 0}
+    m_Extent: {x: 0.6649984, y: 0.73669, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &518832084
@@ -11312,8 +11330,8 @@ MonoBehaviour:
   - {fileID: 672950344}
   - {fileID: 1313507737}
   m_Bounds:
-    m_Center: {x: -0.011330396, y: -0.46042013, z: 0}
-    m_Extent: {x: 0.32529014, y: 0.6139538, z: 0}
+    m_Center: {x: -0.0113301575, y: -0.46042067, z: 0}
+    m_Extent: {x: 0.32529038, y: 0.61395425, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &542644662
@@ -12459,8 +12477,8 @@ MonoBehaviour:
   - {fileID: 294719360}
   - {fileID: 968237148}
   m_Bounds:
-    m_Center: {x: -0.005217761, y: -0.4574992, z: 0}
-    m_Extent: {x: 0.3440665, y: 0.5930142, z: 0}
+    m_Center: {x: -0.005220622, y: -0.45749968, z: 0}
+    m_Extent: {x: 0.34406555, y: 0.59301466, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &585355213
@@ -14846,8 +14864,8 @@ MonoBehaviour:
   - {fileID: 195304051}
   - {fileID: 1216778792}
   m_Bounds:
-    m_Center: {x: 0.015076697, y: -0.41306382, z: 0}
-    m_Extent: {x: 0.32599977, y: 0.58181, z: 0}
+    m_Center: {x: 0.015075982, y: -0.4130633, z: 0}
+    m_Extent: {x: 0.32599956, y: 0.58181006, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &736752612
@@ -14928,7 +14946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &737944607
 Transform:
   m_ObjectHideFlags: 0
@@ -15001,8 +15019,8 @@ MonoBehaviour:
   - {fileID: 632219769}
   - {fileID: 1178801415}
   m_Bounds:
-    m_Center: {x: 0.0006350279, y: 0.008314908, z: 0}
-    m_Extent: {x: 0.43936455, y: 0.7511949, z: 0}
+    m_Center: {x: 0.0006362498, y: 0.008314729, z: 0}
+    m_Extent: {x: 0.43936482, y: 0.7511946, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &741380579
@@ -17367,8 +17385,8 @@ MonoBehaviour:
   - {fileID: 535585889}
   - {fileID: 970477345}
   m_Bounds:
-    m_Center: {x: 0.010683358, y: -0.007019639, z: 0}
-    m_Extent: {x: 0.99431837, y: 0.6679791, z: 0}
+    m_Center: {x: 0.010682464, y: -0.0070198774, z: 0}
+    m_Extent: {x: 0.994318, y: 0.66797984, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &858070181
@@ -18922,8 +18940,8 @@ MonoBehaviour:
   - {fileID: 613080760}
   - {fileID: 408316392}
   m_Bounds:
-    m_Center: {x: -0.15333402, y: 0.057152033, z: 0}
-    m_Extent: {x: 1.228332, y: 2.8619983, z: 0}
+    m_Center: {x: -0.15333402, y: 0.05676627, z: 0}
+    m_Extent: {x: 1.228332, y: 2.8623843, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &936955394
@@ -25007,8 +25025,8 @@ MonoBehaviour:
   - {fileID: 523986830}
   - {fileID: 1741779322}
   m_Bounds:
-    m_Center: {x: 0.009174585, y: -0.0035402179, z: 0}
-    m_Extent: {x: 0.3254546, y: 0.5801401, z: 0}
+    m_Center: {x: 0.009175509, y: -0.003539741, z: 0}
+    m_Extent: {x: 0.32545507, y: 0.58013964, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1208955732
@@ -26245,7 +26263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1264462689
 Transform:
   m_ObjectHideFlags: 0
@@ -28240,8 +28258,8 @@ MonoBehaviour:
   - {fileID: 522048126}
   - {fileID: 1137313162}
   m_Bounds:
-    m_Center: {x: 0.00121665, y: 0.009205878, z: 0}
-    m_Extent: {x: 0.43781304, y: 0.7505303, z: 0}
+    m_Center: {x: 0.0012171865, y: 0.009205997, z: 0}
+    m_Extent: {x: 0.43781304, y: 0.7505301, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1325030630
@@ -30763,8 +30781,8 @@ MonoBehaviour:
   - {fileID: 316166268}
   - {fileID: 506335662}
   m_Bounds:
-    m_Center: {x: -0.02651316, y: 0.018411815, z: 0}
-    m_Extent: {x: 0.32159084, y: 0.62407035, z: 0}
+    m_Center: {x: -0.011485815, y: 0.008913577, z: 0}
+    m_Extent: {x: 0.32473493, y: 0.61048, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1415945141
@@ -33000,8 +33018,8 @@ MonoBehaviour:
   - {fileID: 653201828}
   - {fileID: 936955395}
   m_Bounds:
-    m_Center: {x: -0.032698274, y: -0.42704654, z: 0}
-    m_Extent: {x: 0.32084277, y: 0.5851797, z: 0}
+    m_Center: {x: -0.03270018, y: -0.4270469, z: 0}
+    m_Extent: {x: 0.32084277, y: 0.5851798, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1513720004
@@ -33952,7 +33970,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.57
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -34205,8 +34223,8 @@ MonoBehaviour:
   - {fileID: 359044468}
   - {fileID: 1490165183}
   m_Bounds:
-    m_Center: {x: 0.14310831, y: 0.055677652, z: 0}
-    m_Extent: {x: 1.003934, y: 0.6729677, z: 0}
+    m_Center: {x: 0.12693822, y: 0.06455755, z: 0}
+    m_Extent: {x: 1.0021851, y: 0.6655103, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1582545918
@@ -35392,8 +35410,8 @@ MonoBehaviour:
   - {fileID: 124334742}
   - {fileID: 1353649572}
   m_Bounds:
-    m_Center: {x: 0.0013361573, y: 0.0005905628, z: 0}
-    m_Extent: {x: 0.4236654, y: 0.7578194, z: 0}
+    m_Center: {x: 0.0013364255, y: 0.0005902648, z: 0}
+    m_Extent: {x: 0.42366564, y: 0.7578192, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1626335075
@@ -36862,6 +36880,8 @@ GameObject:
   - component: {fileID: 1667208332}
   - component: {fileID: 1667208333}
   - component: {fileID: 1667208334}
+  - component: {fileID: 1667208336}
+  - component: {fileID: 1667208335}
   m_Layer: 0
   m_Name: Pers
   m_TagString: Untagged
@@ -37008,6 +37028,114 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1667208335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667208329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &1667208336
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667208329}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1669259189
 GameObject:
   m_ObjectHideFlags: 0
@@ -39020,7 +39148,7 @@ MonoBehaviour:
   - {fileID: 818488378}
   - {fileID: 836802314}
   m_Bounds:
-    m_Center: {x: 0.26394925, y: -0.4533211, z: 0}
+    m_Center: {x: 0.26395115, y: -0.45332062, z: 0}
     m_Extent: {x: 0.58400995, y: 0.67580605, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -40342,8 +40470,8 @@ MonoBehaviour:
   - {fileID: 2053810516}
   - {fileID: 326165600}
   m_Bounds:
-    m_Center: {x: 0.054439485, y: -0.70709383, z: 0}
-    m_Extent: {x: 0.67522585, y: 1.2201859, z: 0}
+    m_Center: {x: 0.013983011, y: -0.63820505, z: 0}
+    m_Extent: {x: 0.6857252, y: 1.1420853, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1814394729
@@ -42871,7 +42999,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1930112093}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 3a8ddd9bb6034ee4d9d54744f30b7ce0, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 2269ae6c0beeae94a9e537c637a4724f, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -43286,8 +43414,8 @@ MonoBehaviour:
   - {fileID: 1997587719}
   - {fileID: 1946760625}
   m_Bounds:
-    m_Center: {x: 0.000009119511, y: 0.029354334, z: 0}
-    m_Extent: {x: 0.6649995, y: 0.719356, z: 0}
+    m_Center: {x: 0.000009179115, y: 0.029353917, z: 0}
+    m_Extent: {x: 0.66499996, y: 0.71935606, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1940714948
@@ -44455,7 +44583,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.734
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -47426,8 +47554,8 @@ MonoBehaviour:
   - {fileID: 585044469}
   - {fileID: 1345509917}
   m_Bounds:
-    m_Center: {x: -0.0016143918, y: -0.00069510937, z: 0}
-    m_Extent: {x: 0.4216951, y: 0.7574849, z: 0}
+    m_Center: {x: -0.0016155839, y: -0.0006958246, z: 0}
+    m_Extent: {x: 0.42169487, y: 0.75748515, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2093766711
@@ -47889,8 +48017,8 @@ MonoBehaviour:
   - {fileID: 506218427}
   - {fileID: 861749313}
   m_Bounds:
-    m_Center: {x: -0.009742379, y: -0.7391547, z: 0}
-    m_Extent: {x: 0.6939012, y: 1.1580014, z: 0}
+    m_Center: {x: 0.01175797, y: -0.7285445, z: 0}
+    m_Extent: {x: 0.69022536, y: 1.1415015, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2120012871
