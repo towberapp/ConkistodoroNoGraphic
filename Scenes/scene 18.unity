@@ -2411,8 +2411,8 @@ MonoBehaviour:
   - {fileID: 1423499039}
   - {fileID: 891703345}
   m_Bounds:
-    m_Center: {x: -0.041826963, y: 0.0410493, z: 0}
-    m_Extent: {x: 0.3645789, y: 0.5431035, z: 0}
+    m_Center: {x: 0.009162575, y: -0.0037173629, z: 0}
+    m_Extent: {x: 0.32546532, y: 0.58029896, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &170503034
@@ -9409,6 +9409,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!21 &328731682
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &333118931
 GameObject:
   m_ObjectHideFlags: 0
@@ -12058,8 +12092,8 @@ MonoBehaviour:
   - {fileID: 2063104152}
   - {fileID: 2015997702}
   m_Bounds:
-    m_Center: {x: 0.07649675, y: 0.16846544, z: 0}
-    m_Extent: {x: 0.43979916, y: 0.69652164, z: 0}
+    m_Center: {x: 0.0012185276, y: 0.009206176, z: 0}
+    m_Extent: {x: 0.43781304, y: 0.7505308, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &444238286
@@ -13609,8 +13643,8 @@ MonoBehaviour:
   - {fileID: 1995702529}
   - {fileID: 235304689}
   m_Bounds:
-    m_Center: {x: -0.01366958, y: 0.021313548, z: 0}
-    m_Extent: {x: 0.32278097, y: 0.59773105, z: 0}
+    m_Center: {x: -0.011705846, y: 0.008643925, z: 0}
+    m_Extent: {x: 0.32444876, y: 0.6107095, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &586270866
@@ -14193,9 +14227,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8e517b6f83e3d74a970b3173f616738, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 28eacca48cfc09343b1628580bb9eb84, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.844
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27238,7 +27272,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 99f238c96a86b8b42a5dae942e759c18, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
@@ -27816,8 +27850,8 @@ MonoBehaviour:
   - {fileID: 333118932}
   - {fileID: 1333852843}
   m_Bounds:
-    m_Center: {x: 0.040801138, y: 0.16930741, z: 0}
-    m_Extent: {x: 0.42959338, y: 0.69568396, z: 0}
+    m_Center: {x: 0.0013361871, y: 0.0005904436, z: 0}
+    m_Extent: {x: 0.4236659, y: 0.7578195, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &915326691
@@ -30159,8 +30193,8 @@ MonoBehaviour:
   - {fileID: 1529252668}
   - {fileID: 400925528}
   m_Bounds:
-    m_Center: {x: -0.27777672, y: 0.59344167, z: 0}
-    m_Extent: {x: 0.92536414, y: 0.67335075, z: 0}
+    m_Center: {x: -0.2777772, y: 0.5934414, z: 0}
+    m_Extent: {x: 0.92536366, y: 0.673351, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1041576882
@@ -30285,8 +30319,8 @@ MonoBehaviour:
   - {fileID: 263569326}
   - {fileID: 1372942496}
   m_Bounds:
-    m_Center: {x: 0.07578707, y: -0.6385696, z: 0}
-    m_Extent: {x: 0.6646631, y: 0.7440134, z: 0}
+    m_Center: {x: 0.095377326, y: -0.5040946, z: 0}
+    m_Extent: {x: 0.6650002, y: 0.7366903, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1041606156
@@ -33607,8 +33641,8 @@ MonoBehaviour:
   - {fileID: 259841250}
   - {fileID: 532132571}
   m_Bounds:
-    m_Center: {x: 0.104917645, y: -0.046090662, z: 0}
-    m_Extent: {x: 0.9930062, y: 0.6720206, z: 0}
+    m_Center: {x: 0.12693942, y: 0.06455809, z: 0}
+    m_Extent: {x: 1.0021875, y: 0.6655103, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1304487106
@@ -38540,40 +38574,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!21 &1564869693
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1583088156
 GameObject:
   m_ObjectHideFlags: 0
@@ -40358,7 +40358,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1780806381}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 3407b62e211de33418f5161ec45322cf, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: f524082dcead612479fa202e2fe52b95, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
