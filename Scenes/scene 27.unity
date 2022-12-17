@@ -7111,8 +7111,8 @@ MonoBehaviour:
   - {fileID: 1497944081}
   - {fileID: 1656347190}
   m_Bounds:
-    m_Center: {x: 0.018509716, y: -0.4134255, z: 0}
-    m_Extent: {x: 0.32579315, y: 0.58055955, z: 0}
+    m_Center: {x: 0.015078157, y: -0.41306335, z: 0}
+    m_Extent: {x: 0.32599986, y: 0.5818105, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &312098826
@@ -7570,7 +7570,7 @@ PlayableDirector:
   m_GameObject: {fileID: 323793546}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 304575a707c8ae84a955583bfa23deb0, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 15c7e72f396e3df499ff7450d29a2025, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -7956,6 +7956,8 @@ PlayableDirector:
     value: {fileID: 416509262}
   - key: {fileID: 1302802602456714136, guid: 304575a707c8ae84a955583bfa23deb0, type: 2}
     value: {fileID: 1818485442}
+  - key: {fileID: -7899302659055887189, guid: 15c7e72f396e3df499ff7450d29a2025, type: 2}
+    value: {fileID: 1587047161}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &328433284
@@ -9532,6 +9534,8 @@ GameObject:
   - component: {fileID: 420427461}
   - component: {fileID: 420427462}
   - component: {fileID: 420427463}
+  - component: {fileID: 420427465}
+  - component: {fileID: 420427464}
   m_Layer: 0
   m_Name: Hikolda
   m_TagString: Untagged
@@ -9680,6 +9684,114 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _State: 0
+--- !u!82 &420427464
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420427456}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.777
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &420427465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420427456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422239547
 GameObject:
   m_ObjectHideFlags: 0
@@ -10122,8 +10234,8 @@ MonoBehaviour:
   - {fileID: 153518195}
   - {fileID: 777970358}
   m_Bounds:
-    m_Center: {x: -0.32818455, y: 0.035648078, z: 0}
-    m_Extent: {x: 0.48221642, y: 0.37547195, z: 0}
+    m_Center: {x: -0.0037751794, y: -0.4410807, z: 0}
+    m_Extent: {x: 0.3238951, y: 0.59396493, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &430587391
@@ -10824,8 +10936,8 @@ MonoBehaviour:
   - {fileID: 1934570685}
   - {fileID: 254026966}
   m_Bounds:
-    m_Center: {x: -0.15547305, y: -0.5253988, z: 0}
-    m_Extent: {x: 0.5264957, y: 0.7224404, z: 0}
+    m_Center: {x: -0.16457534, y: -0.4914388, z: 0}
+    m_Extent: {x: 0.5365621, y: 0.70983154, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &461885314
@@ -14407,8 +14519,8 @@ MonoBehaviour:
   - {fileID: 744607546}
   - {fileID: 772378620}
   m_Bounds:
-    m_Center: {x: -0.40981716, y: 0.045288026, z: 0}
-    m_Extent: {x: 0.6336778, y: 0.35676038, z: 0}
+    m_Center: {x: 0.030980378, y: -0.44291967, z: 0}
+    m_Extent: {x: 0.31879973, y: 0.58705014, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &607528226
@@ -17477,8 +17589,8 @@ MonoBehaviour:
   - {fileID: 913037061}
   - {fileID: 454949359}
   m_Bounds:
-    m_Center: {x: -0.006991565, y: 0.0008145571, z: 0}
-    m_Extent: {x: 0.422516, y: 0.75707746, z: 0}
+    m_Center: {x: -0.0016148686, y: -0.0006945133, z: 0}
+    m_Extent: {x: 0.4216961, y: 0.7574849, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &778642770
@@ -27514,8 +27626,8 @@ MonoBehaviour:
   - {fileID: 638043939}
   - {fileID: 1244874134}
   m_Bounds:
-    m_Center: {x: 0.017703831, y: -0.24863905, z: 0}
-    m_Extent: {x: 0.8682889, y: 0.45967603, z: 0}
+    m_Center: {x: 0.04674512, y: -0.17422882, z: 0}
+    m_Extent: {x: 0.87082654, y: 0.43592784, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1224521963
@@ -28423,8 +28535,8 @@ MonoBehaviour:
   - {fileID: 481321743}
   - {fileID: 2066087538}
   m_Bounds:
-    m_Center: {x: -0.009656578, y: -0.46047306, z: 0}
-    m_Extent: {x: 0.32529628, y: 0.61428404, z: 0}
+    m_Center: {x: -0.011330664, y: -0.46041942, z: 0}
+    m_Extent: {x: 0.32529038, y: 0.6139537, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1249713285
@@ -29993,8 +30105,8 @@ MonoBehaviour:
   - {fileID: 930324062}
   - {fileID: 367736189}
   m_Bounds:
-    m_Center: {x: 0.003797233, y: 0.006294012, z: 0}
-    m_Extent: {x: 0.43937132, y: 0.752182, z: 0}
+    m_Center: {x: 0.00063720345, y: 0.008155465, z: 0}
+    m_Extent: {x: 0.43936482, y: 0.751354, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1328525511
@@ -36216,7 +36328,7 @@ GameObject:
   - component: {fileID: 1587047161}
   - component: {fileID: 1587047160}
   m_Layer: 0
-  m_Name: 0 (23)
+  m_Name: 27 Stairs Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36246,7 +36358,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 63467acb493e28c4f902a0671a5c50e3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -41323,8 +41435,8 @@ MonoBehaviour:
   - {fileID: 574576262}
   - {fileID: 711304364}
   m_Bounds:
-    m_Center: {x: 0.010682166, y: -0.007019818, z: 0}
-    m_Extent: {x: 0.99431765, y: 0.66797936, z: 0}
+    m_Center: {x: 0.01068455, y: -0.0070194006, z: 0}
+    m_Extent: {x: 0.9943183, y: 0.66797996, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1805006718
@@ -47664,8 +47776,8 @@ MonoBehaviour:
   - {fileID: 122570383}
   - {fileID: 77548228}
   m_Bounds:
-    m_Center: {x: 0.000009596348, y: 0.029353201, z: 0}
-    m_Extent: {x: 0.6649995, y: 0.7193558, z: 0}
+    m_Center: {x: 0.000011026859, y: 0.029354572, z: 0}
+    m_Extent: {x: 0.6650001, y: 0.7193558, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2044602718
