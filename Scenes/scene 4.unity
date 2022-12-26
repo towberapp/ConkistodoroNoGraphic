@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 91329634}
   - component: {fileID: 91329633}
   m_Layer: 0
-  m_Name: 0 (37)
+  m_Name: ' 4 TakePowder '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1553,7 +1553,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 883e9f44b363c6b499d21fe417e5113d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.825
   m_Pitch: 1
@@ -12646,7 +12646,7 @@ GameObject:
   - component: {fileID: 884865362}
   - component: {fileID: 884865361}
   m_Layer: 0
-  m_Name: 0 (36)
+  m_Name: 4 TakeRope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12676,7 +12676,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0aa65d395bb55584a9fa4e88099bc773, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.825
   m_Pitch: 1
@@ -20071,7 +20071,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1375023815}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 0ee398ca4bb985f4fb80583fbda51fda, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 6361efe1ef2f7924b96341271006b3f5, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -20529,6 +20529,12 @@ PlayableDirector:
     value: {fileID: 1293156348}
   - key: {fileID: 8500155521145581214, guid: 0ee398ca4bb985f4fb80583fbda51fda, type: 2}
     value: {fileID: 286622011}
+  - key: {fileID: 5385663044186508898, guid: b77f2522bf6b6d5498478333954eb8b5, type: 2}
+    value: {fileID: 1883862554}
+  - key: {fileID: 434074649846897714, guid: 6361efe1ef2f7924b96341271006b3f5, type: 2}
+    value: {fileID: 884865362}
+  - key: {fileID: -3322605308009384040, guid: 8176ff9aebf5a2e4d9e50e2c763aab08, type: 2}
+    value: {fileID: 91329634}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1375023819
@@ -26665,7 +26671,7 @@ GameObject:
   - component: {fileID: 1883862554}
   - component: {fileID: 1883862553}
   m_Layer: 0
-  m_Name: 0 (35)
+  m_Name: 4 TakeLamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26695,7 +26701,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b2892e97aa1b5964eb54b47614be288e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.825
   m_Pitch: 1
@@ -42886,8 +42892,8 @@ MonoBehaviour:
   - {fileID: 2203662756515876073}
   - {fileID: 2203662756040187093}
   m_Bounds:
-    m_Center: {x: -0.018139899, y: 0.008600712, z: 0}
-    m_Extent: {x: 0.32206225, y: 0.6176472, z: 0}
+    m_Center: {x: -0.011485666, y: 0.008914113, z: 0}
+    m_Extent: {x: 0.32473478, y: 0.6104804, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662754458955066
@@ -43081,8 +43087,8 @@ MonoBehaviour:
   - {fileID: 2203662755375826338}
   - {fileID: 2203662755629938230}
   m_Bounds:
-    m_Center: {x: 0.12694037, y: 0.06455803, z: 0}
-    m_Extent: {x: 1.0021875, y: 0.66551024, z: 0}
+    m_Center: {x: 0.12694013, y: 0.064557076, z: 0}
+    m_Extent: {x: 1.0021876, y: 0.6655103, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662754580141252
@@ -44041,8 +44047,8 @@ MonoBehaviour:
   - {fileID: 2203662754999957546}
   - {fileID: 2203662756412757140}
   m_Bounds:
-    m_Center: {x: -0.0006323755, y: -0.0067059994, z: 0}
-    m_Extent: {x: 0.4244135, y: 0.76499, z: 0}
+    m_Center: {x: 0.07402262, y: 0.10764545, z: 0}
+    m_Extent: {x: 0.4502806, y: 0.7198936, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662755223912902
@@ -44581,8 +44587,8 @@ MonoBehaviour:
   - {fileID: 2203662755373893730}
   - {fileID: 2203662754671349934}
   m_Bounds:
-    m_Center: {x: 0.095377326, y: -0.50409544, z: 0}
-    m_Extent: {x: 0.6650002, y: 0.73669016, z: 0}
+    m_Center: {x: 0.09537703, y: -0.5040959, z: 0}
+    m_Extent: {x: 0.6650003, y: 0.7366897, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662755488643286
@@ -45968,8 +45974,8 @@ MonoBehaviour:
   - {fileID: 2203662756033875149}
   - {fileID: 2203662756301810371}
   m_Bounds:
-    m_Center: {x: 0.08779141, y: 0.15613085, z: 0}
-    m_Extent: {x: 0.44290325, y: 0.67862517, z: 0}
+    m_Center: {x: 0.033236474, y: 0.028888881, z: 0}
+    m_Extent: {x: 0.45234975, y: 0.7539976, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662756278016613
@@ -46178,8 +46184,8 @@ MonoBehaviour:
   - {fileID: 2203662754539969128}
   - {fileID: 2203662754634904250}
   m_Bounds:
-    m_Center: {x: -0.12873757, y: 0.088303804, z: 0}
-    m_Extent: {x: 0.44540644, y: 0.508541, z: 0}
+    m_Center: {x: 0.18606776, y: -0.056243718, z: 0}
+    m_Extent: {x: 0.32545507, y: 0.59497106, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662756399356584
@@ -46332,8 +46338,8 @@ MonoBehaviour:
   - {fileID: 2203662754955073143}
   - {fileID: 2203662755165426296}
   m_Bounds:
-    m_Center: {x: -0.27777815, y: 0.59344107, z: 0}
-    m_Extent: {x: 0.92536366, y: 0.67335033, z: 0}
+    m_Center: {x: -0.27777863, y: 0.5934415, z: 0}
+    m_Extent: {x: 0.92536414, y: 0.67335, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2203662756414741749
@@ -67446,8 +67452,8 @@ MonoBehaviour:
   - {fileID: 7719561695967898754}
   - {fileID: 7719561695176528286}
   m_Bounds:
-    m_Center: {x: -0.034918725, y: -0.40303248, z: 0}
-    m_Extent: {x: 0.2687252, y: 0.5368496, z: 0}
+    m_Center: {x: -0.034918487, y: -0.40303153, z: 0}
+    m_Extent: {x: 0.2687259, y: 0.5368496, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7719561694316668896
@@ -68711,8 +68717,8 @@ MonoBehaviour:
   - {fileID: 7719561695937612658}
   - {fileID: 7719561695907936445}
   m_Bounds:
-    m_Center: {x: -0.010033041, y: -0.5452494, z: 0}
-    m_Extent: {x: 0.37722957, y: 0.6455439, z: 0}
+    m_Center: {x: -0.010034233, y: -0.5452494, z: 0}
+    m_Extent: {x: 0.3772298, y: 0.6455439, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!4 &7719561694450384351
@@ -74187,8 +74193,8 @@ MonoBehaviour:
   - {fileID: 7719561694995544494}
   - {fileID: 7719561695862805547}
   m_Bounds:
-    m_Center: {x: 0.01521337, y: -0.4155249, z: 0}
-    m_Extent: {x: 0.2897604, y: 0.5511701, z: 0}
+    m_Center: {x: 0.015214562, y: -0.41552395, z: 0}
+    m_Extent: {x: 0.28976065, y: 0.5511701, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!4 &7719561695063111717
@@ -78478,8 +78484,8 @@ MonoBehaviour:
   - {fileID: 7719561696017008001}
   - {fileID: 7719561695803320763}
   m_Bounds:
-    m_Center: {x: 0.04086715, y: -0.4084831, z: 0}
-    m_Extent: {x: 0.36980578, y: 0.6034996, z: 0}
+    m_Center: {x: 0.040868104, y: -0.40848285, z: 0}
+    m_Extent: {x: 0.36980674, y: 0.6034998, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &7719561695531264775
@@ -80242,8 +80248,8 @@ MonoBehaviour:
   - {fileID: 7719561695473495572}
   - {fileID: 7719561695715841044}
   m_Bounds:
-    m_Center: {x: 0.029688597, y: -0.4382112, z: 0}
-    m_Extent: {x: 0.85999906, y: 0.79325914, z: 0}
+    m_Center: {x: -0.008731723, y: -0.4311427, z: 0}
+    m_Extent: {x: 0.8694844, y: 0.78740716, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &7719561695703963251
@@ -82170,8 +82176,8 @@ MonoBehaviour:
   - {fileID: 7719561696208949204}
   - {fileID: 7719561695446013989}
   m_Bounds:
-    m_Center: {x: -0.03605485, y: 0.010351837, z: 0}
-    m_Extent: {x: 1.1015937, y: 0.3869274, z: 0}
+    m_Center: {x: -0.03605652, y: 0.010351837, z: 0}
+    m_Extent: {x: 1.101593, y: 0.38692737, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!4 &7719561695909676789
