@@ -24,16 +24,29 @@ public class RandomLoopTrigger : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("???");
+
         animator = GetComponent<Animator>();
         courutine = LoopCourutines();
     }
 
-    private void Start()
+
+    private void OnEnable()
     {
+        Debug.Log("??? ???");
+
         if (animator != null)
             StartCoroutine(courutine);
     }
 
+/*    private void Enable()
+    {
+        Debug.Log("??? ???");
+
+        if (animator != null)
+            StartCoroutine(courutine);
+    }
+*/
 
     IEnumerator LoopCourutines()
     {

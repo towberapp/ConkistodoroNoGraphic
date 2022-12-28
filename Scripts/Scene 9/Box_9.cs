@@ -5,7 +5,8 @@ using UnityEngine;
 public class Box_9 : AnimatorObject
 {
     private bool IsTubeOut = false,
-                IsOn = false;
+                IsOn = false,
+                Boom = false;
 
     [SerializeField]
     private SpriteRenderer _Bug = null;
@@ -20,6 +21,11 @@ public class Box_9 : AnimatorObject
     public void TurnOn()
     {
         animator.SetBool(nameof(IsOn), true);
+    }
+
+    public void BoomBox()
+    {
+        animator.SetBool(nameof(Boom), true);
     }
 
     public void SetTubeToBug()
