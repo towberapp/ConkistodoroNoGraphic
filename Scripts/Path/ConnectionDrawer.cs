@@ -17,6 +17,7 @@ public class ConnectionDrawer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         foreach (MapPoint connected in _Point.GetConnected())
         {
             if (Application.isEditor  && _AutoConnection && !connected.CheckConnection(_Point))
@@ -26,14 +27,18 @@ public class ConnectionDrawer : MonoBehaviour
                 _Point.Remove(connected);
                 break;
             }
+
             if (_Point is ActionMapPoint && ((ActionMapPoint)_Point).GetEvent(connected) != null
                 && connected.gameObject.activeInHierarchy && connected.CheckConnection(_Point))
                 Debug.DrawLine(transform.position, connected.transform.position, Color.cyan, 0.1f);
+            
             else if (_Point is ActionMapPoint && ((ActionMapPoint)_Point).GetEvent(connected) != null
                 && connected.gameObject.activeInHierarchy)
                 Debug.DrawLine(transform.position, connected.transform.position, Color.yellow, 0.1f);
+            
             else if (connected.gameObject.activeInHierarchy && connected.CheckConnection(_Point))
                 Debug.DrawLine(transform.position, connected.transform.position, Color.red, 0.1f);
+            
             else if (connected.gameObject.activeInHierarchy)
                 Debug.DrawLine(transform.position, connected.transform.position, Color.green, 0.1f);
         }

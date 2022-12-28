@@ -4,12 +4,26 @@ using UnityEngine;
 
 public class Mech : AnimatorObject
 {
-    private bool IsBroken = false,
+    private bool    IsBroken = false,
                     IsFixed = false,
                     IsOpen = false,
                     IsWasOpened = false,
                     IsWired = false,
-                    IsTubed = false;
+                    IsTubed = false,
+                    FirstTube = false,
+                    AllDone = false;
+
+    private bool IsCompressorWork;
+
+    public void CompressorOff(bool status)
+    {
+        animator.SetBool(nameof(IsCompressorWork), status);
+    }
+
+    public void AllDoneEvent()
+    {        
+        animator.SetBool(nameof(AllDone), true);
+    }
 
 
     public void Brake()
@@ -25,7 +39,14 @@ public class Mech : AnimatorObject
     public void SetTube()
     {
         animator.SetBool(nameof(IsTubed), true);
+        animator.SetTrigger("SetTubeTtrigger");
     }
+
+   /* public void FirstTubeBool()
+    {
+        animator.SetBool(nameof(FirstTube), true);
+        //animator.SetTrigger("SetTubeTtrigger");
+    }*/
 
     public void SetWire()
     {

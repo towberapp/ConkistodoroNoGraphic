@@ -131,8 +131,11 @@ public class CharacterMovement : MonoBehaviour
             if (Velocity != Vector2.zero)
                 CurrentSide = CurrentPoint.GetPlayerSide(Velocity / 2);
             CurrentPoint = m_CurrentPath.GetNextPoint();
+
+
             if (PrevPoint is ActionMapPoint && ((ActionMapPoint)PrevPoint).GetEvent(CurrentPoint) is UnityEvent pointEvent)
             {
+
                 pointEvent?.Invoke();
                 yield return null;
             }
@@ -170,6 +173,7 @@ public class CharacterMovement : MonoBehaviour
             CurrentPoint = m_CurrentPath.GetNextPoint();
             if (PrevPoint is ActionMapPoint && ((ActionMapPoint)PrevPoint).GetEvent(CurrentPoint) is UnityEvent pointEvent)
             {
+
                 pointEvent?.Invoke();
             }
         }
