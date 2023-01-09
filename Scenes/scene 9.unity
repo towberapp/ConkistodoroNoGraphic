@@ -1874,7 +1874,19 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1828757072}
+        m_TargetAssemblyTypeName: State, Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Off
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &56991439
 GameObject:
@@ -3121,8 +3133,8 @@ MonoBehaviour:
   - {fileID: 1967167456}
   - {fileID: 215326164}
   m_Bounds:
-    m_Center: {x: 0.009174526, y: 0.010779262, z: 0}
-    m_Extent: {x: 0.32545507, y: 0.58013964, z: 0}
+    m_Center: {x: -0.27064186, y: 0.24331298, z: 0}
+    m_Extent: {x: 0.55388963, y: 0.3744966, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &127326217
@@ -3611,6 +3623,164 @@ Transform:
   m_Father: {fileID: 1148023302}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &134402947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134402948}
+  - component: {fileID: 134402950}
+  - component: {fileID: 134402949}
+  m_Layer: 0
+  m_Name: Scene 9 Floor Out Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134402948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134402947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1836937364}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134402949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134402947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 0522a5a9af4ac3e4986003f701bc6fdf, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 134402950}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!82 &134402950
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134402947}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 28b5b5ea4b1ffb647bbc35f3feed6853, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &151189733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,8 +5030,8 @@ MonoBehaviour:
   - {fileID: 1528890468}
   - {fileID: 1107538672}
   m_Bounds:
-    m_Center: {x: 0.13429466, y: -0.32540053, z: 0}
-    m_Extent: {x: 0.38983303, y: 0.59266347, z: 0}
+    m_Center: {x: 0.1736011, y: 0.02371332, z: 0}
+    m_Extent: {x: 0.38666815, y: 0.3265467, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &207426096
@@ -6095,8 +6265,8 @@ MonoBehaviour:
   - {fileID: 562167248}
   - {fileID: 1972537839}
   m_Bounds:
-    m_Center: {x: 0.12694025, y: 0.0645569, z: 0}
-    m_Extent: {x: 1.0021875, y: 0.6655102, z: 0}
+    m_Center: {x: 0.1700921, y: 0.049018145, z: 0}
+    m_Extent: {x: 0.9954326, y: 0.69960916, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &246997429
@@ -9085,8 +9255,8 @@ MonoBehaviour:
   - {fileID: 119339245}
   - {fileID: 1547364343}
   m_Bounds:
-    m_Center: {x: 0.26232904, y: 0.05874747, z: 0}
-    m_Extent: {x: 0.574373, y: 0.73035496, z: 0}
+    m_Center: {x: 0.26232904, y: 0.058747947, z: 0}
+    m_Extent: {x: 0.57437253, y: 0.73035496, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &412444393
@@ -10297,8 +10467,8 @@ MonoBehaviour:
   - {fileID: 130654974}
   - {fileID: 666627813}
   m_Bounds:
-    m_Center: {x: -0.029387563, y: 0.03755361, z: 0}
-    m_Extent: {x: 0.324735, y: 0.61048025, z: 0}
+    m_Center: {x: 0.63887227, y: 0.54246783, z: 0}
+    m_Extent: {x: 0.70296323, y: 0.32708365, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &477077434
@@ -10852,8 +11022,8 @@ MonoBehaviour:
   - {fileID: 820454567}
   - {fileID: 1481328715}
   m_Bounds:
-    m_Center: {x: -0.010031968, y: -0.54524976, z: 0}
-    m_Extent: {x: 0.37722892, y: 0.6455439, z: 0}
+    m_Center: {x: -0.010032445, y: -0.54524994, z: 0}
+    m_Extent: {x: 0.37722892, y: 0.6455437, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &506780020
@@ -13933,8 +14103,8 @@ MonoBehaviour:
   - {fileID: 1469029254}
   - {fileID: 181045804}
   m_Bounds:
-    m_Center: {x: -0.034919083, y: -0.40303373, z: 0}
-    m_Extent: {x: 0.26872545, y: 0.53684956, z: 0}
+    m_Center: {x: -0.034918845, y: -0.40303296, z: 0}
+    m_Extent: {x: 0.26872522, y: 0.5368494, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &621647359
@@ -14678,8 +14848,8 @@ MonoBehaviour:
   - {fileID: 2132623350}
   - {fileID: 31108094}
   m_Bounds:
-    m_Center: {x: 0.04086691, y: -0.40848315, z: 0}
-    m_Extent: {x: 0.36980456, y: 0.60350025, z: 0}
+    m_Center: {x: 0.04086715, y: -0.40848196, z: 0}
+    m_Extent: {x: 0.3698048, y: 0.6035, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &641269109
@@ -14799,8 +14969,8 @@ MonoBehaviour:
   - {fileID: 1773260050}
   - {fileID: 1859134248}
   m_Bounds:
-    m_Center: {x: 0.1421366, y: 0.021368623, z: 0}
-    m_Extent: {x: 0.4656783, y: 0.7628379, z: 0}
+    m_Center: {x: 0.14213654, y: 0.021368444, z: 0}
+    m_Extent: {x: 0.46567824, y: 0.7628377, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &641520403
@@ -15448,8 +15618,8 @@ MonoBehaviour:
   - {fileID: 1094868007}
   - {fileID: 1170371884}
   m_Bounds:
-    m_Center: {x: 0.014870822, y: -0.45606428, z: 0.00000007445316}
-    m_Extent: {x: 0.32397503, y: 0.5944498, z: 0.00000001497081}
+    m_Center: {x: 0.014869392, y: -0.456064, z: 0}
+    m_Extent: {x: 0.32397553, y: 0.59444976, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &665641502
@@ -17974,8 +18144,8 @@ MonoBehaviour:
   - {fileID: 762194934}
   - {fileID: 1633926824}
   m_Bounds:
-    m_Center: {x: 0.09537697, y: -0.5040957, z: 0}
-    m_Extent: {x: 0.6650001, y: 0.73669016, z: 0}
+    m_Center: {x: 0.2841125, y: -0.43034524, z: 0}
+    m_Extent: {x: 0.6763011, y: 0.7027351, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &779925929
@@ -19166,6 +19336,19 @@ MonoBehaviour:
           m_StringArgument: Clicked
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3998169964804610844}
+        m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
+        m_MethodName: SetStartSide
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1184995801}
@@ -19178,6 +19361,19 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: DoubleClick
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3998169964804610844}
+        m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
+        m_MethodName: SetStartSide
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   _Clips:
@@ -19240,8 +19436,8 @@ MonoBehaviour:
   - {fileID: 1857859908}
   - {fileID: 755772758}
   m_Bounds:
-    m_Center: {x: 0.0013357401, y: 0.0005900264, z: 0}
-    m_Extent: {x: 0.42366517, y: 0.7578193, z: 0}
+    m_Center: {x: 0.06946644, y: -0.041000307, z: 0}
+    m_Extent: {x: 0.42417645, y: 0.7884773, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &820065513
@@ -19532,8 +19728,8 @@ MonoBehaviour:
   - {fileID: 1645641947}
   - {fileID: 1470442986}
   m_Bounds:
-    m_Center: {x: 0.010087699, y: -0.4495437, z: 0.000000074025046}
-    m_Extent: {x: 0.4561721, y: 0.69129026, z: 0.000000015540406}
+    m_Center: {x: 0.0100877285, y: -0.45297056, z: 0}
+    m_Extent: {x: 0.45617223, y: 0.69471675, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &830304840
@@ -19899,8 +20095,8 @@ MonoBehaviour:
   - {fileID: 1586513596}
   - {fileID: 848004189}
   m_Bounds:
-    m_Center: {x: 0.02968663, y: -0.43821073, z: 0}
-    m_Extent: {x: 0.86000174, y: 0.793259, z: 0}
+    m_Center: {x: 0.029686451, y: -0.43821043, z: 0}
+    m_Extent: {x: 0.8600011, y: 0.7932587, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &843258257
@@ -20371,6 +20567,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
+  - {fileID: 11400000, guid: 4ba957990168f9e47ab310100586cdca, type: 2}
   _ConnectedPoints:
   - {fileID: 1366224110}
   - {fileID: 1181581395}
@@ -20422,15 +20619,12 @@ MonoBehaviour:
   - {fileID: 1191342785}
   - {fileID: 151189734}
   - {fileID: 1194542291}
-  - {fileID: 635991363}
   _TargetValues:
   - 'Set
 
     InBug
 
     Set
-
-    Show
 
     none'
   _TargetEvents:
@@ -21489,8 +21683,8 @@ MonoBehaviour:
   - {fileID: 1760469047}
   - {fileID: 1362830335}
   m_Bounds:
-    m_Center: {x: 0.42307872, y: 0.014774084, z: 0}
-    m_Extent: {x: 0.6173346, y: 0.8163658, z: 0}
+    m_Center: {x: 0.42307848, y: 0.014773607, z: 0}
+    m_Extent: {x: 0.61733437, y: 0.8163657, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &906283088
@@ -21723,6 +21917,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
+  - {fileID: 11400000, guid: 49fc19ab444ac664ca4eeecc80419abe, type: 2}
   _ConnectedPoints:
   - {fileID: 1366224110}
   - {fileID: 1741391814}
@@ -22564,7 +22759,20 @@ MonoBehaviour:
   _TimelineManager: {fileID: 2086208118}
   _InteractEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3998169964804610844}
+        m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
+        m_MethodName: SetStartSide
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &929222063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24874,6 +25082,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
+  - {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580, type: 2}
   _ConnectedPoints:
   - {fileID: 1309649633}
   - {fileID: 326180243}
@@ -26277,8 +26486,8 @@ MonoBehaviour:
   - {fileID: 43252392}
   - {fileID: 775773331}
   m_Bounds:
-    m_Center: {x: -0.12749523, y: -0.007019639, z: 0}
-    m_Extent: {x: 0.8561431, y: 0.6679797, z: 0}
+    m_Center: {x: -0.09547073, y: -0.0070198774, z: 0}
+    m_Extent: {x: 0.88816714, y: 0.66797996, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1070481200
@@ -26898,6 +27107,7 @@ GameObject:
   - component: {fileID: 1106532386}
   - component: {fileID: 1106532385}
   - component: {fileID: 1106532387}
+  - component: {fileID: 1106532388}
   m_Layer: 0
   m_Name: Bak Fin lejit na Scene
   m_TagString: Untagged
@@ -26974,6 +27184,7 @@ Transform:
   - {fileID: 578196907}
   - {fileID: 1246631032}
   - {fileID: 1705181747}
+  - {fileID: 1833970855}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27024,6 +27235,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Bug: {fileID: 1705181748}
   _Tube: {fileID: 2008924503}
+  boomAudio: {fileID: 1833970856}
+  fromRandomBom: 4
+  toRandomBom: 10
+  listEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1184995801}
+        m_TargetAssemblyTypeName: State, Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DoubleClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!82 &1106532385
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27162,6 +27391,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+--- !u!114 &1106532388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106532379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62e45b8bf7616a4c8152744b868e98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1107538671
 GameObject:
   m_ObjectHideFlags: 0
@@ -27462,8 +27703,8 @@ MonoBehaviour:
   - {fileID: 1171238705}
   - {fileID: 1219939288}
   m_Bounds:
-    m_Center: {x: 0.0012166202, y: 0.009205699, z: 0}
-    m_Extent: {x: 0.43781227, y: 0.75053036, z: 0}
+    m_Center: {x: 0.0012169778, y: 0.009206712, z: 0}
+    m_Extent: {x: 0.43781224, y: 0.7505303, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1126641100
@@ -28231,8 +28472,8 @@ MonoBehaviour:
   - {fileID: 593954368}
   - {fileID: 801704518}
   m_Bounds:
-    m_Center: {x: 0.038850516, y: -0.4051355, z: 0}
-    m_Extent: {x: 0.32940543, y: 0.5715788, z: 0}
+    m_Center: {x: 0.015076458, y: -0.41306376, z: 0}
+    m_Extent: {x: 0.3260001, y: 0.5818102, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1175551984
@@ -31333,8 +31574,8 @@ MonoBehaviour:
   - {fileID: 1088135169}
   - {fileID: 1240235214}
   m_Bounds:
-    m_Center: {x: -0.03605473, y: 0.010352671, z: 0}
-    m_Extent: {x: 1.1015949, y: 0.38692647, z: 0}
+    m_Center: {x: -0.03605604, y: 0.010353148, z: 0}
+    m_Extent: {x: 1.1015946, y: 0.38692647, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1259104046
@@ -32206,8 +32447,8 @@ MonoBehaviour:
   - {fileID: 384164919}
   - {fileID: 1592604879}
   m_Bounds:
-    m_Center: {x: 0.26301423, y: -0.44851625, z: 0.000000075812814}
-    m_Extent: {x: 0.58307296, y: 0.6710026, z: 0.000000015575814}
+    m_Center: {x: 0.2630133, y: -0.44851667, z: 0}
+    m_Extent: {x: 0.583074, y: 0.6710022, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1271697236
@@ -33062,6 +33303,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
+  - {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580, type: 2}
   _ConnectedPoints:
   - {fileID: 1562491559}
   - {fileID: 1023692788}
@@ -34465,8 +34707,8 @@ MonoBehaviour:
   - {fileID: 1980462918}
   - {fileID: 2069767657}
   m_Bounds:
-    m_Center: {x: 0.010302126, y: -0.43519998, z: 0.000000074868574}
-    m_Extent: {x: 0.45431808, y: 0.62731624, z: 0.000000015051562}
+    m_Center: {x: 0.0029838681, y: -0.43793386, z: 0}
+    m_Extent: {x: 0.45307556, y: 0.6293815, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1398144857
@@ -41933,6 +42175,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3998169964804610844}
+        m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
+        m_MethodName: SetStartSide
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4ba957990168f9e47ab310100586cdca,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1979769338}
@@ -41942,6 +42197,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3998169964804610844}
+        m_TargetAssemblyTypeName: AnimationController, Assembly-CSharp
+        m_MethodName: SetStartSide
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4ba957990168f9e47ab310100586cdca,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44073,7 +44341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1786593529
 Transform:
   m_ObjectHideFlags: 0
@@ -45401,6 +45669,9 @@ MonoBehaviour:
   - 'On
 
     none'
+  - 'Off
+
+    none'
   _TargetEvents:
   - m_PersistentCalls:
       m_Calls:
@@ -45428,9 +45699,37 @@ MonoBehaviour:
           m_StringArgument: otkl
           m_BoolArgument: 0
         m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1271004190}
+        m_TargetAssemblyTypeName: ObjectProgressManager, Assembly-CSharp
+        m_MethodName: SetState
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Off
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1953289235}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _Clips:
   - {fileID: 0}
+  - {fileID: 0}
   _Items:
+  - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &1828757072
 MonoBehaviour:
@@ -45639,6 +45938,133 @@ Transform:
   m_Father: {fileID: 1381367600}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1833970854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833970855}
+  - component: {fileID: 1833970856}
+  m_Layer: 0
+  m_Name: AudioSourceBoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833970855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833970854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1106532381}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1833970856
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833970854}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 507dfe9434b03c54e906bb2b97e64744, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 195
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1835415319
 GameObject:
   m_ObjectHideFlags: 0
@@ -45736,6 +46162,7 @@ Transform:
   - {fileID: 1063400400}
   - {fileID: 1264651569}
   - {fileID: 152273019}
+  - {fileID: 134402948}
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46675,8 +47102,8 @@ MonoBehaviour:
   - {fileID: 1541163606}
   - {fileID: 64555613}
   m_Bounds:
-    m_Center: {x: -0.030006886, y: -0.42653507, z: 0.00000007308994}
-    m_Extent: {x: 0.3181504, y: 0.585692, z: 0.000000016331837}
+    m_Center: {x: -0.030006409, y: -0.4265349, z: 0}
+    m_Extent: {x: 0.31814992, y: 0.5856917, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1884049136
@@ -47071,7 +47498,7 @@ MonoBehaviour:
         m_MethodName: SetStartSide
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091,
+          m_ObjectArgument: {fileID: 11400000, guid: 49fc19ab444ac664ca4eeecc80419abe,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: PlayerSide, Assembly-CSharp
           m_IntArgument: 0
@@ -51707,8 +52134,8 @@ MonoBehaviour:
   - {fileID: 2024313939}
   - {fileID: 2082684282}
   m_Bounds:
-    m_Center: {x: -0.023606062, y: -0.27800396, z: 0.00000007465381}
-    m_Extent: {x: 0.99673414, y: 0.41913983, z: 0.000000044975742}
+    m_Center: {x: -0.023606539, y: -0.27800396, z: 0}
+    m_Extent: {x: 0.99673283, y: 0.4191403, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2077545571
@@ -51826,8 +52253,8 @@ MonoBehaviour:
   - {fileID: 1425596041}
   - {fileID: 2137896719}
   m_Bounds:
-    m_Center: {x: 0.015212387, y: -0.41552472, z: 0}
-    m_Extent: {x: 0.28975937, y: 0.5511703, z: 0}
+    m_Center: {x: 0.01521191, y: -0.41552466, z: 0}
+    m_Extent: {x: 0.2897608, y: 0.55117035, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &2078718004
@@ -52071,7 +52498,7 @@ PlayableDirector:
   m_GameObject: {fileID: 2086208117}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: cacde1bff1eb7bb47a72829b69389c3b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: ce9460b4cc5955c4d8cd4001f6c7f9b8, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -52407,8 +52834,6 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -6698840325069530876, guid: 8e257e8276fa82948a5b64dc0aa2bd1b, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 461182050028421286, guid: c4bf49e4a5bb26448a79f5f629fa3a66, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -9048345833124375554, guid: 662f055e47cc71b4a9b66b4cb956806a, type: 2}
     value: {fileID: 0}
   - key: {fileID: 1716623716419387492, guid: 7aa8366ad7d68e445923faea4be826ba, type: 2}
@@ -52459,6 +52884,8 @@ PlayableDirector:
     value: {fileID: 1264651571}
   - key: {fileID: 7993743541730215435, guid: ce9460b4cc5955c4d8cd4001f6c7f9b8, type: 2}
     value: {fileID: 1953289233}
+  - key: {fileID: 1585043139462238323, guid: c4bf49e4a5bb26448a79f5f629fa3a66, type: 2}
+    value: {fileID: 134402949}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2086208121
