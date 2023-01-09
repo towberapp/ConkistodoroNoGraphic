@@ -3755,7 +3755,6 @@ GameObject:
   m_Component:
   - component: {fileID: 152545875}
   - component: {fileID: 152545877}
-  - component: {fileID: 152545876}
   - component: {fileID: 152545878}
   - component: {fileID: 152545879}
   m_Layer: 0
@@ -3779,65 +3778,6 @@ Transform:
   m_Father: {fileID: 653722947}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &152545876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152545874}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80a9d07bb98b4f847804518ab1249f45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _PreferedSides:
-  - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
-  - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
-  _ConnectedPoints:
-  - {fileID: 1181584690}
-  - {fileID: 404747028}
-  - {fileID: 1514162938}
-  targetScale: 0.663399
-  _ConnectedEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1533683197}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LoadNextScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 26
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1106836112}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Appear
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 4295072176639234668}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &152545877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3880,7 +3820,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
   _ConnectedPoints:
-  - {fileID: 1181584690}
+  - {fileID: 1181584693}
   - {fileID: 404747028}
   - {fileID: 1514162938}
   targetScale: 0.663399
@@ -4135,40 +4075,6 @@ Transform:
   m_Father: {fileID: 1286257065}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &165666291
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShower
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &173974953
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,8 +9394,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
   _ConnectedPoints:
   - {fileID: 1104662175}
-  - {fileID: 152545876}
   - {fileID: 1514162938}
+  - {fileID: 152545879}
   targetScale: 0.663399
   _ConnectedEvents:
   - m_PersistentCalls:
@@ -10796,8 +10702,8 @@ MonoBehaviour:
   - {fileID: 153518195}
   - {fileID: 777970358}
   m_Bounds:
-    m_Center: {x: -0.0037763715, y: -0.44108176, z: 0}
-    m_Extent: {x: 0.32389528, y: 0.59396505, z: 0}
+    m_Center: {x: -0.004466772, y: -0.44057488, z: 0}
+    m_Extent: {x: 0.32404873, y: 0.5936345, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &430587391
@@ -13563,7 +13469,7 @@ MonoBehaviour:
           m_MethodName: Move
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 152545876}
+            m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: MapPoint, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -28042,7 +27948,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1181584692}
-  - component: {fileID: 1181584690}
   - component: {fileID: 1181584691}
   - component: {fileID: 1181584693}
   - component: {fileID: 1181584694}
@@ -28053,25 +27958,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1181584690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181584689}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f7b18c3ac56b5f4da202976ddca673a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _PreferedSides:
-  - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
-  - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
-  _ConnectedPoints:
-  - {fileID: 152545876}
-  - {fileID: 2097189318}
-  targetScale: 0.663399
 --- !u!114 &1181584691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28115,7 +28001,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
   _ConnectedPoints:
-  - {fileID: 152545876}
+  - {fileID: 2097189318}
+  - {fileID: 152545879}
   targetScale: 0.663399
   _ConnectedEvents:
   - m_PersistentCalls:
@@ -36811,7 +36698,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: 1b9e75373f31668499551b3d6fcbc580, type: 2}
   _ConnectedPoints:
-  - {fileID: 152545876}
+  - {fileID: 152545879}
   - {fileID: 404747028}
   targetScale: 0.663399
 --- !u!114 &1514162939
@@ -47189,7 +47076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _NecesseryItem: {fileID: 0}
   _isPointed: 1
-  _Point: {fileID: 1181584690}
+  _Point: {fileID: 0}
   _TimelineAsset: {fileID: 11400000, guid: 65c8b5cc9e7e77045b8228cc0ac444c8, type: 2}
   _TimelineManager: {fileID: 323793548}
   _InteractEvent:
@@ -48849,6 +48736,40 @@ Transform:
   m_Father: {fileID: 359026197}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1975631108
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ItemShower
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1978580520
 GameObject:
   m_ObjectHideFlags: 0
@@ -52057,7 +51978,7 @@ GameObject:
   - component: {fileID: 2097189320}
   - component: {fileID: 2097189319}
   m_Layer: 0
-  m_Name: Point (From 26) (1)
+  m_Name: Load Scene 26
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -52078,8 +51999,7 @@ MonoBehaviour:
   _PreferedSides:
   - {fileID: 11400000, guid: b166beb993f7e31428a31b4605be6695, type: 2}
   - {fileID: 11400000, guid: 781cd7bef920d96479569b069c14b091, type: 2}
-  _ConnectedPoints:
-  - {fileID: 1181584690}
+  _ConnectedPoints: []
   targetScale: 0.663399
 --- !u!114 &2097189319
 MonoBehaviour:
